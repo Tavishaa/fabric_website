@@ -45,7 +45,6 @@ const Hero = () => {
   return (
     <>
       <div className="relative">
-        {/* Background gradient with animation */}
         <div className="absolute inset-0 bg-gradient-to-br from-blue-400 via-sky-400 to-blue-500 opacity-90">
           <motion.div
             animate={{
@@ -59,7 +58,6 @@ const Hero = () => {
           />
         </div>
 
-        {/* Hero Content */}
         <div id="home" className="relative py-24">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -138,7 +136,6 @@ const Hero = () => {
                   </motion.div>
                 </AnimatePresence>
                 
-                {/* Navigation arrows with hover effect */}
                 <motion.button
                   whileHover={{ scale: 1.1, backgroundColor: "rgba(0,0,0,0.7)" }}
                   onClick={prevSlide}
@@ -154,7 +151,6 @@ const Hero = () => {
                   <ChevronRight size={24} />
                 </motion.button>
                 
-                {/* Enhanced navigation dots */}
                 <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex gap-3">
                   {images.map((_, index) => (
                     <motion.button
@@ -175,7 +171,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Enhanced About Us Section */}
       <div id="about-preview" className="py-24 bg-gradient-to-b from-blue-50 to-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
@@ -210,4 +205,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Hero; 
