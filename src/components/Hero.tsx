@@ -196,7 +196,7 @@ const Hero = () => {
                 whileTap={{ scale: 0.95 }}
               >
                 <a
-                  href="/about"
+                  href="/#/about"
                   className="inline-block bg-gradient-to-r from-blue-500 to-sky-500 text-white px-10 py-4 rounded-full font-semibold hover:from-blue-600 hover:to-sky-600 transition-all duration-300 shadow-lg hover:shadow-xl"
                 >
                   Learn More About Us
