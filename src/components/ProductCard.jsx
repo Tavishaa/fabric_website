@@ -8,7 +8,7 @@ function ProductCard({ product }) {
       className="bg-white rounded-lg shadow-lg overflow-hidden"
     >
       <img
-        src={product.image}
+        src={"https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
         alt={product.name}
         className="w-full h-48 object-cover"
       />
@@ -17,7 +17,7 @@ function ProductCard({ product }) {
         <p className="text-gray-600 mt-2">{product.shortDescription}</p>
         <Link
           to={`/product/${product.id}`}
-          className="mt-4 inline-block bg-primary text-white px-4 py-2 rounded hover:bg-primary-dark transition"
+          className="mt-4 inline-block bg-primary-dark text-white px-4 py-2 rounded hover:bg-primary transition"
         >
           Learn More
         </Link>

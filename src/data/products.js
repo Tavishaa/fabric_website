@@ -6,10 +6,10 @@ export const products = [
     name: 'Non Woven Non Fusible Fabrics',
     category: 'nonwoven-nonfusible',
     images: [
-      '/images/nonwoven/nw1.jpg',
-      '/images/nonwoven/nw2.jpg',
-      '/images/nonwoven/nw3.jpg',
-      '/images/nonwoven/nw4.jpg',
+      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     ],
     shortDescription: 'High-quality chemical bonded non-woven fabrics for various applications.',
     description: `Our chemical bonded non-woven non fusible fabrics are manufactured using advanced technology to ensure superior quality and performance. These fabrics are ideal for:
@@ -32,10 +32,10 @@ export const products = [
     name: 'Non Woven Fusible Interlinings',
     category: 'nonwoven-fusible',
     images: [
-      '/images/fusible/f1.jpg',
-      '/images/fusible/f2.jpg',
-      '/images/fusible/f3.jpg',
-      '/images/fusible/f4.jpg',
+      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     ],
     shortDescription: 'Premium fusible interlinings for garment manufacturing.',
     description: `Our fusible interlinings are designed for optimal adhesion and durability in garment manufacturing. Features include:
@@ -58,10 +58,10 @@ export const products = [
     name: 'Embroidery Backing Fabrics',
     category: 'embroidery-backing',
     images: [
-      '/images/embroidery/eb1.jpg',
-      '/images/embroidery/eb2.jpg',
-      '/images/embroidery/eb3.jpg',
-      '/images/embroidery/eb4.jpg',
+      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     ],
     shortDescription: 'Specialized backing materials for embroidery applications.',
     description: `Our embroidery backing fabrics provide excellent support for all types of embroidery work. Features include:

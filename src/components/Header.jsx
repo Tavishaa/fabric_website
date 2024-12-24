@@ -68,9 +68,9 @@ function Header() {
                 )}
               </AnimatePresence>
             </div>
-
-            <Link to="/services" className="text-gray-700 hover:text-primary transition">Services</Link>
+            
             <Link to="/about" className="text-gray-700 hover:text-primary transition">About Us</Link>
+            <Link to="/services" className="text-gray-700 hover:text-primary transition">Services</Link>
             <Link to="/contact" className="text-gray-700 hover:text-primary transition">Contact</Link>
           </nav>
 

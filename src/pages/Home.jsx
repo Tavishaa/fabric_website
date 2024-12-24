@@ -8,19 +8,19 @@ function Home() {
     {
       id: 1,
       name: 'Non Woven Non Fusible Fabrics',
-      image: '/images/product1.jpg',
+      image: 'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       shortDescription: 'High-quality chemical bonded non-woven fabrics for various applications.',
     },
     {
       id: 2,
       name: 'Non Woven Fusible Interlinings',
-      image: '/images/product1.jpg',
+      image: 'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       shortDescription: 'Premium fusible interlinings for garment manufacturing.',
     },
     {
       id: 3,
       name: 'Embroidery Backing Fabrics',
-      image: '/images/product1.jpg',
+      image: 'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       shortDescription: 'Specialized backing materials for embroidery applications.',
     },
   ];
@@ -29,7 +29,7 @@ function Home() {
     <div>
       <Carousel />
       
-      <section className="py-16 bg-secondary-light">
+      <section className="py-16 bg-secondary-dark">
         <div className="container mx-auto px-4">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -68,7 +68,7 @@ function Home() {
             </p>
             <a
               href="/about"
-              className="inline-block bg-primary text-white px-6 py-3 rounded hover:bg-primary-dark transition"
+              className="inline-block bg-primary-dark text-white px-6 py-3 rounded hover:bg-primary transition"
             >
               Learn More About Us
             </a>

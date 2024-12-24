@@ -107,7 +107,7 @@ function ContactForm() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             type="submit"
-            className="w-full bg-primary text-white py-2 px-4 rounded hover:bg-primary-dark transition"
+            className="w-full bg-primary-dark text-white py-2 px-4 rounded hover"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.6 }}
