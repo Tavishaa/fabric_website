@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import Carousel from '../components/Carousel';
 import ProductCard from '../components/ProductCard';
 import ContactForm from '../components/ContactForm';
+import { Link } from 'react-router-dom';
 
 function Home() {
   const products = [
@@ -50,29 +51,25 @@ function Home() {
       <section className="py-16 bg-primary text-background">
         <div className="container mx-auto px-4">
           <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 1 }}
+            animate={{ opacity: 1 }}
             className="text-3xl font-bold text-center text-gold mb-12"
           >
             About Us
           </motion.h2>
           
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            className="max-w-3xl mx-auto text-center"
-          >
-            <p className="text-background/90 mb-6">
+          <div className="max-w-3xl mx-auto text-center">
+            <p className="text-background mb-6 text-lg">
               We are a leading manufacturer, supplier, importer & trader of various types of interlining fabrics.
               With years of experience in the industry, we provide high-quality products that meet international standards.
             </p>
-            <a
-              href="/about"
-              className="inline-block bg-gold text-primary px-6 py-3 rounded hover:bg-secondary transition-all duration-300"
+            <Link
+              to="/about"
+              className="inline-block bg-secondary text-primary px-8 py-4 rounded-md hover:bg-secondary-light transition-all duration-300 font-semibold text-lg shadow-lg"
             >
               Learn More About Us
-            </a>
-          </motion.div>
+            </Link>
+          </div>
         </div>
       </section>
 
