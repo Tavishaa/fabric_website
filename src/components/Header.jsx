@@ -52,7 +52,7 @@ function Header() {
                   >
                     {productCategories.map((category, index) => (
                       <div key={index} className="px-4 py-2">
-                        <h3 className="text-sm font-heading font-medium text-gold mb-1">{category.title}</h3>
+                        <h3 className="text-sm font-heading font-semibold text-gold mb-1">{category.title}</h3>
                         {category.items.map(product => (
                           <Link
                             key={product.id}

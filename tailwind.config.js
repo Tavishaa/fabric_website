@@ -37,7 +37,7 @@ export default {
         'normal': 400,
         'medium': 500,
         'semibold': 600,
-        'bold': 700,
+        'bold': 1000,
       },
       letterSpacing: {
         'tighter': '-0.02em',
