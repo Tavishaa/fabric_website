@@ -9,8 +9,7 @@ import {
   faHandshake,
   faCertificate,
   faTools,
-  faChartLine,
-  faGlobe
+  faChartLine
 } from '@fortawesome/free-solid-svg-icons';
 
 function Services() {
@@ -22,13 +21,13 @@ function Services() {
     },
     {
       icon: faShip,
-      title: 'Global Supply Chain',
-      description: 'Comprehensive import & export services with established networks across major textile markets worldwide.'
+      title: 'Supply Chain Management',
+      description: 'Comprehensive supply chain services ensuring reliable and efficient product delivery to our customers.'
     },
     {
       icon: faTruckFast,
       title: 'Rapid Delivery',
-      description: 'Efficient logistics ensuring timely delivery to customers worldwide with real-time tracking capabilities.'
+      description: 'Efficient logistics ensuring timely delivery with real-time tracking capabilities.'
     }
   ];
 
@@ -49,7 +48,7 @@ function Services() {
       icon: faCertificate,
       title: 'Quality Certification',
       description: 'International quality certifications ensuring product excellence.',
-      features: ['ISO 9001:2015', 'OEKO-TEX® Standard 100', 'Global compliance', 'Regular audits']
+      features: ['ISO 9001:2015', 'OEKO-TEX® Standard 100', 'Quality management systems', 'Regular audits']
     }
   ];
 
@@ -65,9 +64,9 @@ function Services() {
       description: 'Regular market insights and trend analysis for informed decisions.'
     },
     {
-      icon: faGlobe,
-      title: 'Global Reach',
-      description: 'Worldwide distribution network ensuring product availability.'
+      icon: faHandshake,
+      title: 'Customer Service',
+      description: 'Dedicated support team ensuring seamless communication and service.'
     }
   ];
 
@@ -118,13 +117,13 @@ function Services() {
       </section>
 
       {/* Detailed Services */}
-      <section className="py-16 bg-primary-light text-white">
+      <section className="py-16 bg-gradient-to-r from-primary to-primary-light text-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Specialized Services</h2>
+          <h2 className="text-3xl font-heading font-semibold text-center mb-12">Specialized Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {additionalServices.map((service, index) => (
               <FadeInWhenVisible key={service.title} delay={index * 0.1}>
-                <div className="bg-primary rounded-lg p-8">
+                <div className="bg-white/10 backdrop-blur-lg rounded-lg p-8">
                   <div className="text-secondary-light text-3xl mb-4">
                     <FontAwesomeIcon icon={service.icon} />
                   </div>
@@ -133,7 +132,7 @@ function Services() {
                   <ul className="space-y-2">
                     {service.features.map((feature, i) => (
                       <li key={i} className="flex items-center text-gray-300">
-                        <span className="w-2 h-2 bg-secondary rounded-full mr-2"></span>
+                        <span className="w-2 h-2 bg-accent-light rounded-full mr-2"></span>
                         {feature}
                       </li>
                     ))}
