@@ -12,11 +12,11 @@ function Footer() {
   ];
 
   return (
-    <footer className="bg-primary-dark text-white">
+    <footer className="bg-primary-dark text-white font-primary">
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Contact Us</h3>
+            <h3 className="text-xl font-heading font-medium mb-4">Contact Us</h3>
             <div className="space-y-2">
               <p>
                 <FontAwesomeIcon icon={faPhone} className="mr-2" />
@@ -38,7 +38,7 @@ function Footer() {
           </div>
           
           <div>
-            <h3 className="text-xl font-bold mb-4">Quick Links</h3>
+            <h3 className="text-xl font-heading font-medium mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li><Link to="/" className="hover:text-secondary transition">Home</Link></li>
               <li><Link to="/services" className="hover:text-secondary transition">Services</Link></li>
@@ -48,7 +48,7 @@ function Footer() {
           </div>
           
           <div>
-            <h3 className="text-xl font-bold mb-4">Products</h3>
+            <h3 className="text-xl font-heading font-medium mb-4">Products</h3>
             <ul className="space-y-2">
               {productCategories.map((category, index) => (
                 <li key={index}>
@@ -64,7 +64,7 @@ function Footer() {
           </div>
           
           <div>
-            <h3 className="text-xl font-bold mb-4">Follow Us</h3>
+            <h3 className="text-xl font-heading font-medium mb-4">Follow Us</h3>
             <div className="flex space-x-4">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-secondary transition">
                 <FontAwesomeIcon icon={faFacebook} size="2x" />
@@ -80,7 +80,7 @@ function Footer() {
         </div>
         
         <div className="mt-8 pt-8 border-t border-secondary text-center">
-          <p>&copy; {new Date().getFullYear()} Your Company Name. All rights reserved.</p>
+          <p className="font-primary">&copy; {new Date().getFullYear()} Your Company Name. All rights reserved.</p>
         </div>
       </div>
     </footer>

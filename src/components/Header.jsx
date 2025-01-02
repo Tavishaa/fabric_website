@@ -28,7 +28,7 @@ function Header() {
             <img src="/logo.png" alt="Company Logo" className="h-12" />
           </motion.div>
 
-          <nav className="hidden md:flex space-x-6">
+          <nav className="hidden md:flex space-x-6 font-primary">
             <Link to="/" className="text-background hover:text-gold transition-colors duration-300">Home</Link>
             
             <div className="relative">
@@ -52,12 +52,12 @@ function Header() {
                   >
                     {productCategories.map((category, index) => (
                       <div key={index} className="px-4 py-2">
-                        <h3 className="text-sm font-semibold text-gold mb-1">{category.title}</h3>
+                        <h3 className="text-sm font-heading font-medium text-gold mb-1">{category.title}</h3>
                         {category.items.map(product => (
                           <Link
                             key={product.id}
                             to={`/product/${product.id}`}
-                            className="block text-sm text-background hover:text-gold hover:bg-primary-dark px-2 py-1 rounded transition-colors duration-300"
+                            className="block text-sm font-primary text-background hover:text-gold hover:bg-primary-dark px-2 py-1 rounded transition-colors duration-300"
                           >
                             {product.name}
                           </Link>

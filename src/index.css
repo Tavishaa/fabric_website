@@ -1,6 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Import Neue Montreal font */
+@font-face {
+  font-family: 'ITC Avant Garde Gothic';
+  src: url('/fonts/ITCAvantGardeStd-Bk.woff2') format('woff2'),
+       url('/fonts/ITCAvantGardeStd-Bk.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ITC Avant Garde Gothic';
+  src: url('/fonts/ITCAvantGardeStd-Md.woff2') format('woff2'),
+       url('/fonts/ITCAvantGardeStd-Md.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ITC Avant Garde Gothic';
+  src: url('/fonts/ITCAvantGardeStd-Demi.woff2') format('woff2'),
+       url('/fonts/ITCAvantGardeStd-Demi.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ITC Avant Garde Gothic';
+  src: url('/fonts/ITCAvantGardeStd-Bold.woff2') format('woff2'),
+       url('/fonts/ITCAvantGardeStd-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
 
 :root {
   --primary: #13505B;
@@ -13,13 +47,17 @@
   --background: #FFFFFF;
   --text: #040404;
   --highlight: #0C7489;
+  --font-primary: 'ITC Avant Garde Gothic', 'Avant Garde', 'Century Gothic', sans-serif;
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-body: 'DM Sans', sans-serif;
 }
 
 body {
   margin: 0;
-  font-family: 'Gilroy-Medium.e7e7c091';
+  font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.01em;
 }
 
 .slick-dots li button:before {
@@ -28,4 +66,55 @@ body {
 
 .slick-dots li.slick-active button:before {
   color: var(--primary-dark) !important;
+}
+
+/* Custom Gradient Animations */
+.gradient-animate {
+  background-size: 200% 200%;
+  animation: gradient 15s ease infinite;
+}
+
+.gradient-hover {
+  background-size: 200% 200%;
+  transition: all 0.5s ease;
+}
+
+.gradient-hover:hover {
+  background-position: right center;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Glass Effect */
+.glass-effect {
+  background: rgba(19, 80, 91, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Gradient Text */
+.gradient-text {
+  background: linear-gradient(to right, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Add some elegant typography defaults */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
 }
