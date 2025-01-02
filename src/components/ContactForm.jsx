@@ -39,7 +39,7 @@ function ContactForm() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2, duration: 0.6 }}
       >
-        Contact Us
+        
       </motion.h2>
 
       {isSubmitted ? (
