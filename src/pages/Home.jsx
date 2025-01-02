@@ -29,12 +29,12 @@ function Home() {
     <div>
       <Carousel />
       
-      <section className="py-16 bg-secondary-dark">
+      <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-3xl font-bold text-center text-primary-dark mb-12"
+            className="text-3xl font-bold text-center text-primary mb-12"
           >
             Our Products
           </motion.h2>
@@ -47,12 +47,12 @@ function Home() {
         </div>
       </section>
 
-      <section className="py-16">
+      <section className="py-16 bg-primary text-background">
         <div className="container mx-auto px-4">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-3xl font-bold text-center text-primary-dark mb-12"
+            className="text-3xl font-bold text-center text-gold mb-12"
           >
             About Us
           </motion.h2>
@@ -62,13 +62,13 @@ function Home() {
             animate={{ opacity: 1 }}
             className="max-w-3xl mx-auto text-center"
           >
-            <p className="text-gray-700 mb-6">
+            <p className="text-background/90 mb-6">
               We are a leading manufacturer, supplier, importer & trader of various types of interlining fabrics.
               With years of experience in the industry, we provide high-quality products that meet international standards.
             </p>
             <a
               href="/about"
-              className="inline-block bg-primary-dark text-white px-6 py-3 rounded hover:bg-primary transition"
+              className="inline-block bg-gold text-primary px-6 py-3 rounded hover:bg-secondary transition-all duration-300"
             >
               Learn More About Us
             </a>
@@ -76,12 +76,12 @@ function Home() {
         </div>
       </section>
 
-      <section className="py-16 bg-secondary-light">
+      <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-3xl font-bold text-center text-primary-dark mb-12"
+            className="text-3xl font-bold text-center text-primary mb-12"
           >
             Contact Us
           </motion.h2>

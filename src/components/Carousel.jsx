@@ -2,6 +2,32 @@ import { useEffect } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+
+function NextArrow(props) {
+  const { onClick } = props;
+  return (
+    <button
+      onClick={onClick}
+      className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-primary/80 hover:bg-primary text-white p-3 rounded-full transition-all duration-300"
+    >
+      <FontAwesomeIcon icon={faChevronRight} />
+    </button>
+  );
+}
+
+function PrevArrow(props) {
+  const { onClick } = props;
+  return (
+    <button
+      onClick={onClick}
+      className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-primary/80 hover:bg-primary text-white p-3 rounded-full transition-all duration-300"
+    >
+      <FontAwesomeIcon icon={faChevronLeft} />
+    </button>
+  );
+}
 
 function Carousel() {
   const settings = {
@@ -11,7 +37,9 @@ function Carousel() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 5000,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
   };
 
   const slides = [
