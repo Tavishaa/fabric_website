@@ -6,16 +6,15 @@ export default {
   theme: {
     extend: {
       colors: {  
-        'primary': '#13505B',
-        'primary-light': '#119DA4',
-        'primary-dark': '#0C7489',
-        'secondary': '#D7D9CE',
-        'secondary-light': '#E5E6E1',
-        'accent': '#119DA4',
-        'accent-light': '#14B3BB',
-        'background': '#FFFFFF',
-        'text': '#040404',
-        'highlight': '#0C7489',
+        'primary': '#284B63',
+        'primary-light': '#3A617D',
+        'primary-dark': '#1A3344',
+        'secondary': '#eaf2f7',
+        'secondary-light': '#eaf2f7',
+        'accent': '#A8DADC',
+        'background': '#eaf2f7',
+        'text': '#284B63',
+        'text-light': '#3A617D',
       },
       
       fontFamily: {
@@ -35,6 +34,10 @@ export default {
         'tight': '-0.01em',
         'normal': '0',
         'wide': '0.02em',
+      },
+      backgroundImage: {
+        'gradient-primary': 'linear-gradient(to right, #284B63, #3A617D)',
+        'gradient-light': 'linear-gradient(to right, #F8F9FA, #FFFFFF)',
       }
     },
   },

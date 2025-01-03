@@ -35,7 +35,7 @@ function Home() {
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-3xl font-bold text-center text-primary mb-12"
+            className="text-4xl font-bold text-center text-primary mb-12"
           >
             Our Products
           </motion.h2>
@@ -53,7 +53,7 @@ function Home() {
           <motion.h2
             initial={{ opacity: 1 }}
             animate={{ opacity: 1 }}
-            className="text-3xl font-bold text-center text-gold mb-12"
+            className="text-4xl font-bold text-center text-secondary mb-12"
           >
             About Us
           </motion.h2>
@@ -65,7 +65,7 @@ function Home() {
             </p>
             <Link
               to="/about"
-              className="inline-block bg-secondary text-primary px-8 py-4 rounded-md hover:bg-secondary-light transition-all duration-300 font-semibold text-lg shadow-lg"
+              className="inline-block bg-background text-primary px-6 py-3 rounded-md hover:bg-background/90 transition-all duration-300 font-semibold"
             >
               Learn More About Us
             </Link>
@@ -78,7 +78,7 @@ function Home() {
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-3xl font-bold text-center text-primary mb-12"
+            className="text-4xl font-bold text-center text-primary mb-12"
           >
             Contact Us
           </motion.h2>

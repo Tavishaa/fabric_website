@@ -100,7 +100,7 @@ function Services() {
             {mainServices.map((service, index) => (
               <FadeInWhenVisible key={service.title} delay={index * 0.1}>
                 <div className="bg-white rounded-lg shadow-lg p-8 text-center hover:transform hover:scale-105 transition-all duration-300">
-                  <div className="text-secondary text-4xl mb-4">
+                  <div className="text-accent text-4xl mb-4">
                     <FontAwesomeIcon icon={service.icon} />
                   </div>
                   <h3 className="text-xl font-semibold text-primary mb-4">

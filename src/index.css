@@ -37,16 +37,17 @@
 }
 
 :root {
-  --primary: #13505B;
-  --primary-light: #119DA4;
-  --primary-dark: #0C7489;
-  --secondary: #D7D9CE;
-  --secondary-light: #E5E6E1;
-  --accent: #119DA4;
-  --accent-light: #14B3BB;
-  --background: #FFFFFF;
-  --text: #040404;
-  --highlight: #0C7489;
+  --primary: #284B63;
+  --primary-light: #3A617D;
+  --primary-dark: #1A3344;
+  --secondary: #eaf2f7;
+  --secondary-light: #eaf2f7;
+  --accent: #A8DADC;
+  --background: #eaf2f7;
+  --text: #284B63;
+  --text-light: #3A617D;
+  --text-secondary: #90e0ef;
+  --highlight: #00b4d8;
   --font-primary: 'ITC Avant Garde Gothic', 'Avant Garde', 'Century Gothic', sans-serif;
   --font-heading: 'Cormorant Garamond', serif;
   --font-body: 'DM Sans', sans-serif;
@@ -58,6 +59,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: -0.01em;
+  background-color: var(--background);
+  color: var(--text);
 }
 
 .slick-dots li button:before {
@@ -97,15 +100,15 @@ body {
 
 /* Glass Effect */
 .glass-effect {
-  background: rgba(19, 80, 91, 0.1);
+  background: rgba(40, 75, 99, 0.1);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(248, 249, 250, 0.2);
 }
 
 /* Gradient Text */
 .gradient-text {
-  background: linear-gradient(to right, var(--primary), var(--accent));
+  background: linear-gradient(to right, var(--primary), var(--primary-light));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -114,20 +117,43 @@ body {
 /* Add some elegant typography defaults */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
-  font-weight: 600;
+  font-weight: 1000;
   line-height: 1.2;
   letter-spacing: -0.02em;
 }
 
 /* Add specific heading sizes */
 h1 {
-  font-weight: 700;
+  font-weight: 1000;
 }
 
 h2 {
-  font-weight: 600;
+  font-weight: 900;
 }
 
 h3 {
   font-weight: 600;
+}
+
+/* Add subtle glow effect */
+.glow {
+  box-shadow: 0 0 20px rgba(0, 119, 182, 0.2);
+}
+
+.glow-hover:hover {
+  box-shadow: 0 0 30px rgba(0, 119, 182, 0.3);
+}
+
+/* Add blue border glow */
+.border-glow {
+  border: 1px solid var(--primary);
+  box-shadow: 0 0 10px rgba(0, 119, 182, 0.3);
+}
+
+/* Add subtle blue tint to dark surfaces */
+.surface {
+  background: linear-gradient(135deg, 
+    rgba(10, 10, 10, 0.95), 
+    rgba(0, 119, 182, 0.05)
+  );
 }

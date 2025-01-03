@@ -32,7 +32,9 @@ function ProductDetail() {
                 <p className="whitespace-pre-line">{product.description}</p>
               </div>
               
-              <ProductSpecifications specifications={product.specifications} />
+              <div className="bg-secondary text-primary p-6 rounded-lg shadow-lg border border-primary/10">
+                <ProductSpecifications specifications={product.specifications} />
+              </div>
             </div>
           </div>
         </motion.div>

@@ -12,7 +12,7 @@ function Footer() {
   ];
 
   return (
-    <footer className="bg-primary-dark text-white font-primary">
+    <footer className="bg-primary text-background font-primary">
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
@@ -20,13 +20,13 @@ function Footer() {
             <div className="space-y-2">
               <p>
                 <FontAwesomeIcon icon={faPhone} className="mr-2" />
-                <a href="tel:+1234567890" className="hover:text-secondary transition">
+                <a href="tel:+1234567890" className="hover:text-secondary/90 transition">
                   +1 (234) 567-890
                 </a>
               </p>
               <p>
                 <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
-                <a href="mailto:contact@example.com" className="hover:text-secondary transition">
+                <a href="mailto:contact@example.com" className="hover:text-secondary/90 transition">
                   contact@example.com
                 </a>
               </p>
@@ -40,10 +40,10 @@ function Footer() {
           <div>
             <h3 className="text-xl font-heading font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><Link to="/" className="hover:text-secondary transition">Home</Link></li>
-              <li><Link to="/services" className="hover:text-secondary transition">Services</Link></li>
-              <li><Link to="/about" className="hover:text-secondary transition">About Us</Link></li>
-              <li><Link to="/contact" className="hover:text-secondary transition">Contact</Link></li>
+              <li><Link to="/" className="hover:text-secondary/90 transition">Home</Link></li>
+              <li><Link to="/services" className="hover:text-secondary/90 transition">Services</Link></li>
+              <li><Link to="/about" className="hover:text-secondary/90 transition">About Us</Link></li>
+              <li><Link to="/contact" className="hover:text-secondary/90 transition">Contact</Link></li>
             </ul>
           </div>
           
@@ -54,7 +54,7 @@ function Footer() {
                 <li key={index}>
                   <Link 
                     to={category.path}
-                    className="hover:text-secondary transition"
+                    className="hover:text-secondary/90 transition"
                   >
                     {category.title}
                   </Link>
@@ -66,20 +66,20 @@ function Footer() {
           <div>
             <h3 className="text-xl font-heading font-semibold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-secondary transition">
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-secondary/90 transition">
                 <FontAwesomeIcon icon={faFacebook} size="2x" />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-secondary transition">
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-secondary/90 transition">
                 <FontAwesomeIcon icon={faInstagram} size="2x" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-secondary transition">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-secondary/90 transition">
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
               </a>
             </div>
           </div>
         </div>
         
-        <div className="mt-8 pt-8 border-t border-secondary text-center">
+        <div className="mt-8 pt-8 border-t border-secondary/20 text-center">
           <p className="font-primary">&copy; {new Date().getFullYear()} Your Company Name. All rights reserved.</p>
         </div>
       </div>
