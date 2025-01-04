@@ -10,7 +10,7 @@ export default {
         'primary-light': '#3A617D',
         'primary-dark': '#1A3344',
         'secondary': '#eaf2f7',
-        'secondary-light': '#D5E0E7',
+        'secondary-light': '#eaf2f7',
         'accent': '#A8DADC',
         'background': '#eaf2f7',
         'text': '#284B63',
