@@ -29,13 +29,14 @@ function Home() {
   return (
     <div>
       <Carousel />
-      
-      <section className="py-16 bg-background">
+
+      {/* Products Section */}
+      <section className="py-16 bg-secondary/20 relative shadow-[inset_0_-8px_16px_-10px_rgba(0,0,0,0.1)]">
         <div className="container mx-auto px-4">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-5xl font-bold text-center text-primary mb-12"
+            className="text-4xl font-bold text-center text-primary mb-12"
           >
             Our Products
           </motion.h2>
@@ -48,37 +49,88 @@ function Home() {
         </div>
       </section>
 
-      <section className="py-16 bg-primary text-background">
+      {/* About Section */}
+      <section className="py-16 bg-secondary/10 relative shadow-[inset_0_-8px_16px_-10px_rgba(0,0,0,0.1),_inset_0_8px_16px_-10px_rgba(0,0,0,0.1)]">
         <div className="container mx-auto px-4">
           <motion.h2
             initial={{ opacity: 1 }}
             animate={{ opacity: 1 }}
-            className="text-5xl font-bold text-center text-secondary mb-12"
+            className="text-4xl font-bold text-center text-primary mb-12"
           >
             About Us
           </motion.h2>
           
           <div className="max-w-3xl mx-auto text-center">
-            <p className="text-background mb-6 text-lg">
+            <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               We are a leading manufacturer, supplier, importer & trader of various types of interlining fabrics.
               With years of experience in the industry, we provide high-quality products that meet international standards.
             </p>
             <Link
               to="/about"
-              className="inline-block bg-background text-primary px-6 py-3 rounded-md hover:bg-background/90 transition-all duration-300 font-semibold"
+              className="inline-block bg-primary text-white px-6 py-3 rounded-md hover:bg-primary-dark transition-all duration-300 font-semibold shadow-md hover:shadow-lg"
             >
               Learn More About Us
             </Link>
           </div>
         </div>
       </section>
-
-      <section className="py-16 bg-background">
+      
+      {/* Services Section */}
+      <section className="py-16 bg-secondary/20 relative shadow-[inset_0_-8px_16px_-10px_rgba(0,0,0,0.1),_inset_0_8px_16px_-10px_rgba(0,0,0,0.1)]">
         <div className="container mx-auto px-4">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-5xl font-bold text-center text-primary mb-12"
+            className="text-4xl font-bold text-center text-primary mb-12"
+          >
+            Our Services
+          </motion.h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              {
+                title: 'Manufacturing',
+                description: 'State-of-the-art manufacturing facilities producing high-quality interlining products.'
+              },
+              {
+                title: 'Quality Testing',
+                description: 'Comprehensive testing facilities ensuring product quality and consistency.'
+              },
+              {
+                title: 'Custom Solutions',
+                description: 'Tailored interlining solutions meeting specific customer requirements.'
+              }
+            ].map((service, index) => (
+              <motion.div
+                key={service.title}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.1 }}
+                className="bg-white/80 backdrop-blur-sm p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border border-white/10"
+              >
+                <h3 className="text-xl font-semibold text-primary mb-4">{service.title}</h3>
+                <p className="text-gray-600 leading-relaxed">{service.description}</p>
+              </motion.div>
+            ))}
+          </div>
+          <div className="text-center mt-12">
+            <Link
+              to="/services"
+              className="inline-block bg-primary text-white px-8 py-3 rounded-md hover:bg-primary-dark transition-all duration-300 font-semibold shadow-md hover:shadow-lg"
+            >
+              View All Services
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section className="py-16 bg-secondary/10 relative shadow-[inset_0_8px_16px_-10px_rgba(0,0,0,0.1)]">
+        <div className="container mx-auto px-4">
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="text-4xl font-bold text-center text-primary mb-12"
           >
             Contact Us
           </motion.h2>

@@ -4,6 +4,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 function NextArrow(props) {
   const { onClick } = props;
@@ -68,7 +69,17 @@ function Carousel() {
               className="w-full h-full object-cover"
             />
             <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
-              <h3 className="text-2xl font-bold">{slide.caption}</h3>
+              <h3 className="text-2xl font-bold">{slide.caption}</h3></div>
+            <div className="absolute inset-0 flex items-center justify-center text-center bg-black/50">
+              <div className="max-w-3xl px-4">
+                <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
+                  Quality Interlining Solutions
+                </h1>
+                <p className="text-xl text-white mb-8">
+                  Premium fabrics and interlinings for the fashion industry
+                </p>
+              
+              </div>
             </div>
           </div>
         ))}

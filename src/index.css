@@ -41,7 +41,7 @@
   --primary-light: #3A617D;
   --primary-dark: #1A3344;
   --secondary: #eaf2f7;
-  --secondary-light: #eaf2f7;
+  --secondary-light: #D5E0E7;
   --accent: #A8DADC;
   --background: #eaf2f7;
   --text: #284B63;
@@ -156,4 +156,20 @@ h3 {
     rgba(10, 10, 10, 0.95), 
     rgba(0, 119, 182, 0.05)
   );
+}
+
+/* Add these utility classes */
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
 }

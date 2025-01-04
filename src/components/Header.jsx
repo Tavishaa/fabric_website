@@ -5,6 +5,7 @@ import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-sv
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { products } from '../data/products';
+import MobileNav from './MobileNav';
 
 function Header() {
   const [isProductsOpen, setIsProductsOpen] = useState(false);
@@ -73,6 +74,8 @@ function Header() {
             <Link to="/services" className="text-background hover:text-secondary transition-colors duration-300">Services</Link>
             <Link to="/contact" className="text-background hover:text-secondary transition-colors duration-300">Contact</Link>
           </nav>
+
+          <MobileNav />
 
           <div className="flex items-center space-x-4">
             <a href="tel:+1234567890" className="text-secondary hover:text-secondary/80 transition-colors duration-300">
