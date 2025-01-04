@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   const productCategories = [
@@ -64,16 +64,25 @@ function Footer() {
           </div>
           
           <div>
-            <h3 className="text-xl font-heading font-semibold mb-4">Follow Us</h3>
-            <div className="flex space-x-4">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-secondary/90 transition">
-                <FontAwesomeIcon icon={faFacebook} size="2x" />
+            <h3 className="text-xl font-heading font-semibold mb-4">Contact Us</h3>
+            <div className="flex flex-col space-y-4">
+              <a 
+                href="https://wa.me/1234567890" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md transition-all duration-300"
+              >
+                <FontAwesomeIcon icon={faWhatsapp} />
+                Chat with us
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-secondary/90 transition">
-                <FontAwesomeIcon icon={faInstagram} size="2x" />
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-secondary/90 transition">
-                <FontAwesomeIcon icon={faLinkedin} size="2x" />
+              <a 
+                href="https://linkedin.com/company/your-company" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex items-center gap-2 bg-[#0A66C2] hover:bg-[#004182] text-white px-4 py-2 rounded-md transition-all duration-300"
+              >
+                <FontAwesomeIcon icon={faLinkedin} />
+                Follow us on LinkedIn
               </a>
             </div>
           </div>

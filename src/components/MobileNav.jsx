@@ -8,7 +8,7 @@ function MobileNav() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="md:hidden">
+    <div className="md:hidden ml-auto">
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="text-background p-2"

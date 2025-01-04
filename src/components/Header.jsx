@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faChevronDown } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { products } from '../data/products';
@@ -85,14 +85,21 @@ function Header() {
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
             <div className="border-l border-background/20 h-6 mx-2"></div>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-secondary/80 transition-colors duration-300">
-              <FontAwesomeIcon icon={faFacebook} />
+            <a 
+              href="https://wa.me/1234567890" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-secondary hover:text-secondary/80 transition-colors duration-300"
+            >
+              <FontAwesomeIcon icon={faWhatsapp} size="lg" />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-secondary/80 transition-colors duration-300">
-              <FontAwesomeIcon icon={faInstagram} />
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-secondary/80 transition-colors duration-300">
-              <FontAwesomeIcon icon={faLinkedin} />
+            <a 
+              href="https://linkedin.com" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-secondary hover:text-secondary/80 transition-colors duration-300"
+            >
+              <FontAwesomeIcon icon={faLinkedin} size="lg" />
             </a>
           </div>
         </div>

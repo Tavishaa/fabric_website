@@ -69,7 +69,7 @@ function Home() {
             </p>
             <Link
               to="/about"
-              className="inline-block bg-primary text-white px-6 py-3 rounded-md hover:bg-primary-dark transition-all duration-300 font-semibold shadow-md hover:shadow-lg"
+              className="inline-block bg-gradient-to-r from-primary to-primary-dark text-white px-6 py-3 rounded-md hover:opacity-90 transition-all duration-300 font-semibold shadow-md hover:shadow-lg"
             >
               Learn More About Us
             </Link>
@@ -120,7 +120,7 @@ function Home() {
           <div className="text-center mt-12">
             <Link
               to="/services"
-              className="inline-block bg-primary text-white px-8 py-3 rounded-md hover:bg-primary-dark transition-all duration-300 font-semibold shadow-md hover:shadow-lg"
+              className="inline-block bg-gradient-to-r from-primary to-primary-dark text-white px-8 py-3 rounded-md hover:opacity-90 transition-all duration-300 font-semibold shadow-md hover:shadow-lg"
             >
               View All Services
             </Link>

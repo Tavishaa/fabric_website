@@ -49,7 +49,7 @@ function Carousel() {
       caption: 'Chemical Bonded Non Woven Fabrics',
     },
     {
-      image: 'https://doubleghoda.com/wp-content/uploads/2020/09/non-woven-interlinings1.jpg',
+      image: 'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
       caption: 'Fusible Interlinings',
     },
     {
