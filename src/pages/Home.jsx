@@ -31,7 +31,7 @@ function Home() {
       <Carousel />
 
       {/* Products Section */}
-      <section className="py-16 bg-secondary/20 relative shadow-[inset_0_-8px_16px_-10px_rgba(0,0,0,0.1)]">
+      <section className="py-16 bg-secondary/20">
         <div className="container mx-auto px-4">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -49,8 +49,10 @@ function Home() {
         </div>
       </section>
 
+      <hr className="border-0 h-[2px] bg-gradient-to-r from-transparent via-primary/25 to-transparent mx-auto max-w-4xl" />
+
       {/* About Section */}
-      <section className="py-16 bg-secondary/10 relative shadow-[inset_0_-8px_16px_-10px_rgba(0,0,0,0.1),_inset_0_8px_16px_-10px_rgba(0,0,0,0.1)]">
+      <section className="py-16 bg-secondary/10">
         <div className="container mx-auto px-4">
           <motion.h2
             initial={{ opacity: 1 }}
@@ -75,8 +77,10 @@ function Home() {
         </div>
       </section>
       
+      <hr className="border-0 h-[2px] bg-gradient-to-r from-transparent via-primary/25 to-transparent mx-auto max-w-4xl" />
+      
       {/* Services Section */}
-      <section className="py-16 bg-secondary/20 relative shadow-[inset_0_-8px_16px_-10px_rgba(0,0,0,0.1),_inset_0_8px_16px_-10px_rgba(0,0,0,0.1)]">
+      <section className="py-16 bg-secondary/20">
         <div className="container mx-auto px-4">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -124,8 +128,10 @@ function Home() {
         </div>
       </section>
 
+      <hr className="border-0 h-[2px] bg-gradient-to-r from-transparent via-primary/25 to-transparent mx-auto max-w-4xl" />
+
       {/* Contact Section */}
-      <section className="py-16 bg-secondary/10 relative shadow-[inset_0_8px_16px_-10px_rgba(0,0,0,0.1)]">
+      <section className="py-16 bg-secondary/10">
         <div className="container mx-auto px-4">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
