@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import ContactForm from '../components/ContactForm';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import { faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Contact() {
   return (
@@ -25,7 +26,7 @@ function Contact() {
             
             <div className="space-y-6">
               <div className="flex items-center">
-                <FontAwesomeIcon icon={faPhone} className="text-primary w-6" />
+                <FontAwesomeIcon icon={faPhone} className="text-primary text-xl" />
                 <div className="ml-4">
                   <h3 className="font-medium">Phone</h3>
                   <a href="tel:+1234567890" className="text-gray-600 hover:text-primary">
@@ -35,7 +36,7 @@ function Contact() {
               </div>
 
               <div className="flex items-center">
-                <FontAwesomeIcon icon={faEnvelope} className="text-primary w-6" />
+                <FontAwesomeIcon icon={faEnvelope} className="text-primary text-xl" />
                 <div className="ml-4">
                   <h3 className="font-medium">Email</h3>
                   <a href="mailto:contact@example.com" className="text-gray-600 hover:text-primary">
@@ -45,13 +46,35 @@ function Contact() {
               </div>
 
               <div className="flex items-center">
-                <FontAwesomeIcon icon={faMapMarkerAlt} className="text-primary w-6" />
+                <FontAwesomeIcon icon={faMapMarkerAlt} className="text-primary text-xl" />
                 <div className="ml-4">
                   <h3 className="font-medium">Address</h3>
                   <p className="text-gray-600">
                     123 Business Street<br />
                     City, Country
                   </p>
+                </div>
+              </div>
+
+              <div className="flex items-center mt-6">
+                <h3 className="font-medium mr-4">Connect with us:</h3>
+                <div className="flex space-x-4">
+                  <a 
+                    href="https://wa.me/1234567890" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-primary hover:text-primary-dark transition-colors duration-300 text-2xl"
+                  >
+                    <FontAwesomeIcon icon={faWhatsapp} />
+                  </a>
+                  <a 
+                    href="https://linkedin.com/company/your-company" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-primary hover:text-primary-dark transition-colors duration-300 text-2xl"
+                  >
+                    <FontAwesomeIcon icon={faLinkedin} />
+                  </a>
                 </div>
               </div>
             </div>

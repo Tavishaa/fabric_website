@@ -64,25 +64,23 @@ function Footer() {
           </div>
           
           <div>
-            <h3 className="text-xl font-heading font-semibold mb-4">Contact Us</h3>
-            <div className="flex flex-col space-y-4">
+            <h3 className="text-xl font-heading font-semibold mb-4">Connect With Us</h3>
+            <div className="flex space-x-4">
               <a 
                 href="https://wa.me/1234567890" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md transition-all duration-300"
+                className="text-white hover:text-secondary transition-colors duration-300 text-2xl"
               >
                 <FontAwesomeIcon icon={faWhatsapp} />
-                Chat with us
               </a>
               <a 
                 href="https://linkedin.com/company/your-company" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="flex items-center gap-2 bg-[#0A66C2] hover:bg-[#004182] text-white px-4 py-2 rounded-md transition-all duration-300"
+                className="text-white hover:text-secondary transition-colors duration-300 text-2xl"
               >
                 <FontAwesomeIcon icon={faLinkedin} />
-                Follow us on LinkedIn
               </a>
             </div>
           </div>

@@ -62,7 +62,7 @@ function ContactForm() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="text-center text-pink-500"
+          className="text-center text-red-500"
         >
           <h3 className="text-xl">Thank you for contacting us!</h3>
           <p>We will get back to you soon.</p>
@@ -84,7 +84,7 @@ function ContactForm() {
                   <select
                     name={field}
                     required
-                    className="w-full p-2 border border-gray-300 rounded focus:border-primary focus:ring-1 focus:ring-primary focus:shadow-lg transition-all"
+                    className="w-full p-2 border border-gray-300 rounded focus:border-primary focus:ring-1 focus:ring-primary-dark focus:shadow-lg transition-all hover:border-primary-dark focus:border-primary-dark"
                     value={formData[field]}
                     onChange={handleChange}
                   >

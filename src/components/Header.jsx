@@ -77,7 +77,8 @@ function Header() {
 
           <MobileNav />
 
-          <div className="flex items-center space-x-4">
+          {/* Desktop Contact Icons */}
+          <div className="hidden md:flex items-center space-x-4">
             <a href="tel:+1234567890" className="text-secondary hover:text-secondary/80 transition-colors duration-300">
               <FontAwesomeIcon icon={faPhone} />
             </a>
