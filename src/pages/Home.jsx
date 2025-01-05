@@ -64,8 +64,7 @@ function Home() {
           
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
-              We are a leading manufacturer, supplier, importer & trader of various types of interlining fabrics.
-              With years of experience in the industry, we provide high-quality products that meet international standards.
+              With over 15 years of excellence, Hryday Enterprises delivers precision die cutting and slitting services for the garment industry. Our state-of-the-art facility and expert team ensure superior quality components for leading manufacturers.
             </p>
             <Link
               to="/about"
@@ -90,19 +89,15 @@ function Home() {
             Our Services
           </motion.h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
               {
-                title: 'Manufacturing',
-                description: 'State-of-the-art manufacturing facilities producing high-quality interlining products.'
+                title: 'Die Cutting Services',
+                description: 'Specialized in precision die cutting for collar, cuff, band, skin and patch components.'
               },
               {
-                title: 'Quality Testing',
-                description: 'Comprehensive testing facilities ensuring product quality and consistency.'
-              },
-              {
-                title: 'Custom Solutions',
-                description: 'Tailored interlining solutions meeting specific customer requirements.'
+                title: 'Slitting Services',
+                description: 'Expert slitting services for placket, patti roll and trouser belt rolls with precise measurements.'
               }
             ].map((service, index) => (
               <motion.div
