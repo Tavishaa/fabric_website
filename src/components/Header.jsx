@@ -24,14 +24,14 @@ function Header() {
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            className="flex items-center space-x-3 -ml-6"
+            className="flex items-center space-x-1"
           >
             <img 
               src="logo.png" 
               alt="Company Logo" 
               className="h-24 w-24 object-contain -my-6" 
             />
-            <span className="text-2xl font-['Times_New_Roman'] font-semibold">Hryday Enterprises</span>
+            <span className="text-3xl font-['Times_New_Roman'] font-bold">Hryday Enterprises</span>
           </motion.div>
 
           <nav className="hidden md:flex space-x-6 font-primary">

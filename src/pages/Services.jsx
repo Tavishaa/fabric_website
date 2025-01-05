@@ -2,79 +2,46 @@ import { motion } from 'framer-motion';
 import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
-  faIndustry, 
-  faShip, 
-  faTruckFast, 
-  faFlask,
-  faHandshake,
-  faCertificate,
-  faTools,
-  faChartLine
+  faCut,
+  faRuler,
+  faIndustry,
+  faCheckCircle
 } from '@fortawesome/free-solid-svg-icons';
 
 function Services() {
   const mainServices = [
     {
-      icon: faIndustry,
-      title: 'Manufacturing Excellence',
-      description: 'State-of-the-art manufacturing facilities producing high-quality interlining products with precision and consistency.'
+      icon: faCut,
+      title: 'Die Cutting Services',
+      description: 'Specialized in precision die cutting for garment components',
+      features: [
+        'Collar components',
+        'Cuff pieces',
+        'Band materials',
+        'Skin components',
+        'Patch elements'
+      ]
     },
     {
-      icon: faShip,
-      title: 'Supply Chain Management',
-      description: 'Comprehensive supply chain services ensuring reliable and efficient product delivery to our customers.'
-    },
-    {
-      icon: faTruckFast,
-      title: 'Rapid Delivery',
-      description: 'Efficient logistics ensuring timely delivery with real-time tracking capabilities.'
-    }
-  ];
-
-  const additionalServices = [
-    {
-      icon: faFlask,
-      title: 'Quality Testing',
-      description: 'Comprehensive testing facilities ensuring product quality and consistency.',
-      features: ['Material strength testing', 'Wash resistance analysis', 'Color fastness verification', 'Adhesion testing']
-    },
-    {
-      icon: faHandshake,
-      title: 'Custom Solutions',
-      description: 'Tailored interlining solutions meeting specific customer requirements.',
-      features: ['Custom weight options', 'Special finishes', 'Bespoke adhesive formulations', 'Unique material blends']
-    },
-    {
-      icon: faCertificate,
-      title: 'Quality Certification',
-      description: 'International quality certifications ensuring product excellence.',
-      features: ['ISO 9001:2015', 'OEKO-TEX® Standard 100', 'Quality management systems', 'Regular audits']
-    }
-  ];
-
-  const supportServices = [
-    {
-      icon: faTools,
-      title: 'Technical Support',
-      description: 'Expert technical assistance for optimal product implementation.'
-    },
-    {
-      icon: faChartLine,
-      title: 'Market Analysis',
-      description: 'Regular market insights and trend analysis for informed decisions.'
-    },
-    {
-      icon: faHandshake,
-      title: 'Customer Service',
-      description: 'Dedicated support team ensuring seamless communication and service.'
+      icon: faRuler,
+      title: 'Slitting Services',
+      description: 'Expert slitting services for garment manufacturing',
+      features: [
+        'Placket materials',
+        'Patti rolls',
+        'Trouser belt rolls',
+        'Custom width options',
+        'Precise measurements'
+      ]
     }
   ];
 
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="bg-primary text-white py-20">
-        <div className="container mx-auto px-4">
+      <section className="bg-primary text-white py-20 relative">
+        <div className="absolute inset-0 bg-[url('/pattern.png')] opacity-10"></div>
+        <div className="container mx-auto px-4 relative z-10">
           <motion.h1
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -86,53 +53,36 @@ function Services() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="text-xl text-center max-w-3xl mx-auto"
+            className="text-xl text-center max-w-3xl mx-auto text-gray-100"
           >
-            Comprehensive solutions for all your interlining needs, backed by decades of expertise and innovation.
+            Specialized cutting and slitting solutions for the garment industry
           </motion.p>
         </div>
       </section>
 
       {/* Main Services */}
-      <section className="py-16">
+      <section className="pt-20 pb-8">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {mainServices.map((service, index) => (
               <FadeInWhenVisible key={service.title} delay={index * 0.1}>
-                <div className="bg-white rounded-lg shadow-lg p-8 text-center hover:transform hover:scale-105 transition-all duration-300">
-                  <div className="text-accent text-4xl mb-4">
+                <div className="bg-white rounded-lg shadow-lg p-10 hover:shadow-xl border border-gray-100 group hover:-translate-y-1 transition-all duration-300 h-full">
+                  <div className="text-primary text-4xl mb-6 group-hover:scale-110 transition-transform duration-300">
                     <FontAwesomeIcon icon={service.icon} />
                   </div>
-                  <h3 className="text-xl font-semibold text-primary mb-4">
+                  <h3 className="text-2xl font-semibold text-primary mb-4">
                     {service.title}
                   </h3>
-                  <p className="text-gray-600">
+                  <p className="text-gray-600 mb-8 leading-relaxed">
                     {service.description}
                   </p>
-                </div>
-              </FadeInWhenVisible>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Detailed Services */}
-      <section className="py-16 bg-gradient-to-r from-primary to-primary-light text-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-heading font-semibold text-center mb-12">Specialized Services</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {additionalServices.map((service, index) => (
-              <FadeInWhenVisible key={service.title} delay={index * 0.1}>
-                <div className="bg-white/10 backdrop-blur-lg rounded-lg p-8">
-                  <div className="text-secondary-light text-3xl mb-4">
-                    <FontAwesomeIcon icon={service.icon} />
-                  </div>
-                  <h3 className="text-xl font-semibold mb-4">{service.title}</h3>
-                  <p className="mb-4 text-gray-300">{service.description}</p>
-                  <ul className="space-y-2">
-                    {service.features.map((feature, i) => (
-                      <li key={i} className="flex items-center text-gray-300">
-                        <span className="w-2 h-2 bg-accent-light rounded-full mr-2"></span>
+                  <ul className="space-y-4">
+                    {service.features.map((feature, idx) => (
+                      <li key={idx} className="flex items-center text-gray-600 hover:text-primary transition-colors duration-300">
+                        <FontAwesomeIcon 
+                          icon={faCheckCircle} 
+                          className="text-primary mr-3 text-base flex-shrink-0"
+                        />
                         {feature}
                       </li>
                     ))}
@@ -144,24 +94,38 @@ function Services() {
         </div>
       </section>
 
-      {/* Support Services */}
-      <section className="py-16">
+      {/* Manufacturing Excellence */}
+      <section className="py-12 bg-background">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-primary mb-12">Additional Support</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {supportServices.map((service, index) => (
-              <FadeInWhenVisible key={service.title} delay={index * 0.1}>
-                <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-                  <div className="text-accent text-3xl mb-4">
-                    <FontAwesomeIcon icon={service.icon} />
-                  </div>
-                  <h3 className="text-lg font-semibold text-primary mb-2">
-                    {service.title}
-                  </h3>
-                  <p className="text-gray-600">{service.description}</p>
-                </div>
-              </FadeInWhenVisible>
-            ))}
+          <h2 className="text-3xl font-semibold text-center mb-12 text-primary-dark">Manufacturing Excellence</h2>
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-white rounded-lg shadow-lg p-10 border border-gray-100 hover:shadow-xl transition-all duration-300">
+              <div className="text-3xl mb-4 text-primary">
+                <FontAwesomeIcon icon={faIndustry} />
+              </div>
+              <h3 className="text-2xl font-semibold text-primary mb-4">
+                State-of-the-Art Facility
+              </h3>
+              <p className="text-gray-600 mb-8 leading-relaxed">
+                Our modern manufacturing facility is equipped with the latest technology to ensure precise cutting and slitting for all garment components.
+              </p>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
+                {[
+                  'Advanced Die Cutting Machines',
+                  'Precision Slitting Equipment',
+                  'Quality Control Systems',
+                  'Modern Production Lines'
+                ].map((item, index) => (
+                  <li key={index} className="flex items-center text-gray-600 hover:text-primary transition-colors duration-300">
+                    <FontAwesomeIcon 
+                      icon={faCheckCircle} 
+                      className="text-primary mr-3 text-base flex-shrink-0"
+                    />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>
