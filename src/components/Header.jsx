@@ -11,10 +11,17 @@ function Header() {
   const [isProductsOpen, setIsProductsOpen] = useState(false);
 
   const productCategories = [
-    { title: 'Non-Woven Products', items: products.filter(p => p.category.includes('nonwoven')) },
-    { title: 'Fusible Products', items: products.filter(p => p.category.includes('fusible')) },
-    { title: 'Shirt Components', items: products.filter(p => ['shirt-collars', 'shirt-cuffs', 'cuff-collar'].includes(p.category)) },
-    { title: 'Specialty Products', items: products.filter(p => ['patti-rolls', 'belt-rolls'].includes(p.category)) }
+    { 
+      items: [
+        { id: 1, name: 'Woven Fusible Interlining', category: 'woven-fusible' },
+        { id: 2, name: 'Thermal Bond Nonwoven Microdot Fusible', category: 'nonwoven-microdot' },
+        { id: 3, name: 'Chemical Bond Non Woven Fusible & Non Fusible Fabric', category: 'nonwoven-fabric' },
+        { id: 4, name: 'Chemical Bond P.P Non Woven Fabric', category: 'pp-nonwoven' },
+        { id: 5, name: 'Polyester Fusible Interlining', category: 'polyester-fusible' },
+        { id: 6, name: 'PVC/PU Coated Fabric', category: 'coated-fabric' },
+        { id: 7, name: 'Spunlace Nonwoven Fabric', category: 'spunlace' }
+      ]
+    }
   ];
 
   return (
@@ -56,20 +63,17 @@ function Header() {
                     className="absolute left-0 mt-2 w-64 bg-primary rounded-lg shadow-xl py-2"
                     onMouseLeave={() => setIsProductsOpen(false)}
                   >
-                    {productCategories.map((category, index) => (
-                      <div key={index} className="px-4 py-2">
-                        <h3 className="text-sm font-heading font-semibold text-secondary mb-1">{category.title}</h3>
-                        {category.items.map(product => (
-                          <Link
-                            key={product.id}
-                            to={`/product/${product.id}`}
-                            className="block text-sm font-primary text-background hover:text-secondary hover:bg-primary-dark px-2 py-1 rounded transition-colors duration-300"
-                          >
-                            {product.name}
-                          </Link>
-                        ))}
-                      </div>
-                    ))}
+                    <div className="px-4 py-2">
+                      {productCategories[0].items.map(product => (
+                        <Link
+                          key={product.id}
+                          to={`/product/${product.id}`}
+                          className="block text-sm font-primary text-background hover:text-secondary hover:bg-primary-dark px-2 py-2 rounded transition-colors duration-300 my-1 border-b border-background/10 last:border-b-0"
+                        >
+                          {product.name}
+                        </Link>
+                      ))}
+                    </div>
                   </motion.div>
                 )}
               </AnimatePresence>

@@ -46,7 +46,7 @@ function Carousel() {
   const slides = [
     {
       image: 'https://jhanjitextiles.com/wp-content/uploads/2023/07/Fusible-Chemical-Bonded-Fabric.webp',
-      caption: 'Chemical Bonded Non Woven Fabrics',
+      caption: 'Chemical Bond Non Woven Fusible & Non Fusible Fabric',
     },
     {
       image: 'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',

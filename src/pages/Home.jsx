@@ -42,7 +42,26 @@ function Home() {
           </motion.h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {products.map(product => (
+            {[
+              {
+                id: 1,
+                name: 'Woven Fusible Interlining',
+                image: 'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
+                shortDescription: 'Premium woven fusible interlining for garment industry with superior adhesion and durability.',
+              },
+              {
+                id: 2,
+                name: 'Thermal Bond Nonwoven Microdot Fusible',
+                image: 'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
+                shortDescription: 'Advanced microdot fusible interlining with thermal bonding technology.',
+              },
+              {
+                id: 3,
+                name: 'Chemical Bond Non Woven Fusible & Non Fusible Fabric',
+                image: 'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
+                shortDescription: 'Versatile chemical bonded non woven fabrics available in both fusible and non-fusible variants.',
+              }
+            ].map(product => (
               <ProductCard key={product.id} product={product} />
             ))}
           </div>

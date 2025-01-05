@@ -89,12 +89,13 @@ function ContactForm() {
                     onChange={handleChange}
                   >
                     <option value="">Select a product</option>
-                    <option value="nonwoven-nonfusible">Non Woven Non Fusible Fabrics</option>
-                    <option value="nonwoven-fusible">Non Woven Fusible Interlinings</option>
-                    <option value="embroidery-backing">Embroidery Backing Fabrics</option>
-                    <option value="knitted-fusible">Knitted Fusible Interlinings</option>
-                    <option value="weft-insert">Weft Insert Fusible Interlinings</option>
-                    <option value="woven">Cotton and Polyester Woven Interlinings</option>
+                    <option value="woven-fusible">Woven Fusible Interlining</option>
+                    <option value="nonwoven-microdot">Thermal Bond Nonwoven Microdot Fusible</option>
+                    <option value="nonwoven-fabric">Chemical Bond Non Woven Fusible & Non Fusible Fabric</option>
+                    <option value="pp-nonwoven">Chemical Bond P.P Non Woven Fabric</option>
+                    <option value="polyester-fusible">Polyester Fusible Interlining</option>
+                    <option value="coated-fabric">PVC/PU Coated Fabric</option>
+                    <option value="spunlace">Spunlace Nonwoven Fabric</option>
                     <option value="other">Other</option>
                   </select>
                 ) : (

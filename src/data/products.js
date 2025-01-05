@@ -1,282 +1,191 @@
-// Previous products array remains, adding new products:
 export const products = [
-  
   {
     id: 1,
-    name: 'Non Woven Non Fusible Fabrics',
-    category: 'nonwoven-nonfusible',
+    name: 'Woven Fusible Interlining',
+    category: 'woven-fusible',
     images: [
-      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
+      'https://5.imimg.com/data5/SELLER/Default/2021/3/KO/QG/XG/3823480/woven-fusible-interlining-fabric-500x500.jpg',
+      'https://img.freepik.com/premium-photo/close-up-textile-fabric-texture-background_67155-3877.jpg',
+      'https://www.textileblog.com/wp-content/uploads/2018/03/fusible-interlining-fabric.jpg'
     ],
-    shortDescription: 'High-quality chemical bonded non-woven fabrics for various applications.',
-    description: `Our chemical bonded non-woven non fusible fabrics are manufactured using advanced technology to ensure superior quality and performance. These fabrics are ideal for:
+    shortDescription: 'Premium woven fusible interlining for garment industry with superior adhesion and durability.',
+    description: `Our woven fusible interlining provides excellent shape retention and durability for garment applications. Features include:
+
+    • Superior bonding strength
+    • Excellent shape retention
+    • Consistent coating
+    • High durability
+    • Wash resistance
     
-    • Garment manufacturing
-    • Bag making
-    • Packaging
-    • Industrial applications
-    
-    Available in various weights from 30gsm to 120gsm, our fabrics offer excellent strength and durability.`,
+    Perfect for formal wear, suits, and structured garments.`,
     specifications: [
-      { label: 'Weight Range', value: '30-120 GSM' },
+      { label: 'Weight Range', value: '80-150 GSM' },
       { label: 'Width', value: '90-150 cm' },
-      { label: 'Color', value: 'White, Black, Custom' },
-      { label: 'Fiber Type', value: 'Polyester, Viscose' }
+      { label: 'Coating', value: 'PA, EVA' },
+      { label: 'Wash Temperature', value: 'Up to 60°C' }
     ]
   },
   {
     id: 2,
-    name: 'Non Woven Fusible Interlinings',
-    category: 'nonwoven-fusible',
+    name: 'Thermal Bond Nonwoven Microdot Fusible',
+    category: 'nonwoven-microdot',
     images: [
-      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
+      'https://5.imimg.com/data5/SELLER/Default/2023/3/293523773/TN/UE/BZ/185656077/thermal-bonded-non-woven-fabric.jpg',
+      'https://5.imimg.com/data5/SELLER/Default/2022/9/IO/YK/DF/7952744/microdot-fusible-interlining.jpg',
+      'https://img.diytrade.com/smimg/2908417/49550867-11764107-0/nn/c0c9.jpg'
     ],
-    shortDescription: 'Premium fusible interlinings for garment manufacturing.',
-    description: `Our fusible interlinings are designed for optimal adhesion and durability in garment manufacturing. Features include:
-    
-    • Excellent bonding strength
-    • Consistent coating
+    shortDescription: 'Advanced microdot fusible interlining with thermal bonding technology.',
+    description: `Our thermal bond nonwoven microdot fusible interlining features advanced bonding technology for superior performance:
+
+    • Precise microdot coating
+    • Excellent adhesion strength
     • Soft hand feel
-    • Wash resistance
+    • Uniform bonding
+    • Enhanced durability
     
-    Perfect for collars, cuffs, and other garment applications.`,
+    Ideal for lightweight to medium-weight fabrics.`,
     specifications: [
-      { label: 'Weight Range', value: '20-100 GSM' },
+      { label: 'Weight Range', value: '30-100 GSM' },
       { label: 'Width', value: '90-150 cm' },
-      { label: 'Coating Type', value: 'PA, EVA, TPU' },
-      { label: 'Washing Temperature', value: 'Up to 60°C' }
+      { label: 'Coating Type', value: 'Microdot PA' },
+      { label: 'Bond Strength', value: 'High' }
     ]
   },
   {
     id: 3,
-    name: 'Embroidery Backing Fabrics',
-    category: 'embroidery-backing',
+    name: 'Chemical Bond Non Woven Fusible & Non Fusible Fabric',
+    category: 'nonwoven-fabric',
     images: [
-      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
+      'https://5.imimg.com/data5/SELLER/Default/2021/12/MI/CM/OK/142023487/non-woven-fusible-interlining-fabric.jpg',
+      'https://5.imimg.com/data5/SELLER/Default/2022/2/ZE/ZK/JZ/147299793/non-woven-interlining-fabric.jpg',
+      'https://4.imimg.com/data4/QY/YX/MY-3554754/non-woven-interlining-fabric-500x500.jpg'
     ],
-    shortDescription: 'Specialized backing materials for embroidery applications.',
-    description: `Our embroidery backing fabrics provide excellent support for all types of embroidery work. Features include:
-    
-    • Superior stability
-    • Easy tear-away properties
-    • Minimal shrinkage
-    • Compatible with all embroidery machines
-    
-    Available in various weights for different applications.`,
+    shortDescription: 'Versatile chemical bonded non woven fabrics available in both fusible and non-fusible variants.',
+    description: `High-quality chemical bonded non woven fabrics suitable for various applications:
+
+    • Chemical bonding technology
+    • Available in fusible and non-fusible options
+    • Superior strength and durability
+    • Consistent quality
+    • Multiple weight options
+    • Versatile applications`,
     specifications: [
-      { label: 'Weight Range', value: '30-80 GSM' },
+      { label: 'Weight Range', value: '30-120 GSM' },
       { label: 'Width', value: '90-160 cm' },
-      { label: 'Type', value: 'Tear-away, Cut-away' },
-      { label: 'Color', value: 'White' }
+      { label: 'Types', value: 'Fusible, Non-fusible' },
+      { label: 'Colors', value: 'White, Black, Custom' }
     ]
   },
   {
     id: 4,
-    name: 'Knitted Fusible Interlinings',
-    category: 'knitted-fusible',
+    name: 'Chemical Bond P.P Non Woven Fabric',
+    category: 'pp-nonwoven',
     images: [
-      '/images/knitted/k1.jpg',
-      '/images/knitted/k2.jpg',
-      '/images/knitted/k3.jpg',
-      '/images/knitted/k4.jpg',
+      'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
+      'https://5.imimg.com/data5/SELLER/Default/2022/11/WF/ON/JZ/9856630/pp-spunbond-non-woven-fabric.jpg',
+      'https://5.imimg.com/data5/SELLER/Default/2023/7/325885068/QE/YG/KR/195692734/pp-non-woven-fabric.jpeg',
+      'https://5.imimg.com/data5/ANDROID/Default/2023/1/XP/CX/JK/14437719/product-jpeg.jpg'
     ],
-    shortDescription: 'Stretchable fusible interlinings for knitted garments.',
-    description: `Our knitted fusible interlinings are specially designed for stretch fabrics and knitted garments. Key features:
+    shortDescription: 'High-quality chemical bonded polypropylene non woven fabric for diverse applications.',
+    description: `Premium chemical bonded polypropylene non woven fabric offering:
+
+    • Chemical bonding process
+    • Superior strength and durability
+    • Enhanced air permeability
+    • Chemical resistance
+    • Cost-effective solution
+    • Environmental friendly
     
-    • Excellent stretch and recovery
-    • Soft hand feel
-    • Superior wash resistance
-    • Even adhesion
-    
-    Ideal for lightweight to medium-weight knitted fabrics.`,
+    Suitable for various industrial and garment applications.`,
     specifications: [
-      { label: 'Weight Range', value: '25-60 GSM' },
-      { label: 'Width', value: '150 cm' },
-      { label: 'Stretch', value: '30-40%' },
-      { label: 'Coating', value: 'PA, TPU' }
+      { label: 'Material', value: 'Polypropylene' },
+      { label: 'Weight Range', value: '20-100 GSM' },
+      { label: 'Width', value: '90-160 cm' },
+      { label: 'Surface Treatment', value: 'Available' }
     ]
   },
   {
     id: 5,
-    name: 'Weft Insert Fusible Interlinings',
-    category: 'weft-insert',
+    name: 'Polyester Fusible Interlining',
+    category: 'polyester-fusible',
     images: [
-      '/images/weft/wi1.jpg',
-      '/images/weft/wi2.jpg',
-      '/images/weft/wi3.jpg',
-      '/images/weft/wi4.jpg',
+      'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
+      'https://5.imimg.com/data5/SELLER/Default/2022/8/RN/VK/OG/102469/polyester-fusible-interlining.jpg',
+      'https://5.imimg.com/data5/SELLER/Default/2023/4/298550150/XK/YC/YW/28869815/polyester-fusible-interlining.jpg',
+      'https://5.imimg.com/data5/SELLER/Default/2023/3/293523773/TN/UE/BZ/185656077/polyester-fusible-interlining.jpg'
     ],
-    shortDescription: 'Stable weft insertion interlinings for structured garments.',
-    description: `Our weft insert fusible interlinings provide excellent stability and shape retention. Perfect for:
+    shortDescription: 'Premium polyester-based fusible interlining for enhanced garment structure.',
+    description: `High-performance polyester fusible interlining featuring:
+
+    • Superior adhesion properties
+    • Excellent shape retention
+    • Consistent coating
+    • Durable bond strength
+    • Wash resistant
     
-    • Suit jackets
-    • Coats
-    • Formal wear
-    • Structured garments
-    
-    Available in various weights and constructions.`,
+    Ideal for various garment applications.`,
     specifications: [
-      { label: 'Weight Range', value: '80-120 GSM' },
-      { label: 'Width', value: '150 cm' },
-      { label: 'Construction', value: 'Weft inserted' },
-      { label: 'Coating', value: 'PA' }
+      { label: 'Material', value: 'Polyester' },
+      { label: 'Weight Range', value: '40-120 GSM' },
+      { label: 'Width', value: '90-150 cm' },
+      { label: 'Coating', value: 'PA, EVA' }
     ]
   },
   {
     id: 6,
-    name: 'Cotton and Polyester Woven Interlinings',
-    category: 'woven',
+    name: 'PVC/PU Coated Fabric',
+    category: 'coated-fabric',
     images: [
-      '/images/woven/w1.jpg',
-      '/images/woven/w2.jpg',
-      '/images/woven/w3.jpg',
-      '/images/woven/w4.jpg',
+      'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
+      'https://5.imimg.com/data5/SELLER/Default/2022/9/VZ/ZK/UP/37600718/pvc-coated-fabric.jpg',
+      'https://5.imimg.com/data5/SELLER/Default/2023/2/WX/DK/OB/184603450/pu-coated-fabric.jpg',
+      'https://5.imimg.com/data5/SELLER/Default/2023/7/329719145/OG/YN/YW/121462558/pvc-coated-fabric.jpg'
     ],
-    shortDescription: 'Traditional woven interlinings for classic tailoring.',
-    description: `Our woven interlinings are perfect for traditional tailoring applications. Features include:
+    shortDescription: 'Specialized PVC/PU coated fabrics for technical applications.',
+    description: `High-quality coated fabrics with:
+
+    • Water resistance
+    • Durability
+    • Flexible coating options
+    • Custom specifications
+    • Multiple finish options
     
-    • Superior shape retention
-    • Excellent durability
-    • Classic crisp hand feel
-    • Available in various constructions
-    
-    Ideal for formal wear and traditional tailoring.`,
+    Suitable for technical and specialized applications.`,
     specifications: [
-      { label: 'Weight Range', value: '90-150 GSM' },
-      { label: 'Width', value: '150 cm' },
-      { label: 'Composition', value: 'Cotton, Polyester, Blend' },
-      { label: 'Construction', value: 'Plain, Twill' }
+      { label: 'Coating Type', value: 'PVC, PU' },
+      { label: 'Base Fabric', value: 'Various' },
+      { label: 'Width', value: '90-150 cm' },
+      { label: 'Properties', value: 'Water-resistant' }
     ]
   },
   {
     id: 7,
-    name: 'Cuff and Collar Interlinings',
-    category: 'cuff-collar',
+    name: 'Spunlace Nonwoven Fabric',
+    category: 'spunlace',
     images: [
-      '/images/cuff-collar/cc1.jpg',
-      '/images/cuff-collar/cc2.jpg',
-      '/images/cuff-collar/cc3.jpg',
-      '/images/cuff-collar/cc4.jpg',
+      'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
+      'https://5.imimg.com/data5/SELLER/Default/2022/12/ZX/PK/QG/88579516/spunlace-non-woven-fabric.jpg',
+      'https://5.imimg.com/data5/SELLER/Default/2023/3/292456150/YU/CV/RD/88579516/spunlace-non-woven-fabric.webp',
+      'https://5.imimg.com/data5/SELLER/Default/2023/7/329719145/OG/YN/YW/121462558/spunlace-nonwoven-fabric.jpg'
     ],
-    shortDescription: 'Premium interlinings specifically designed for shirt collars and cuffs.',
-    description: `Our specialized cuff and collar interlinings provide the perfect balance of structure and comfort. Features include:
-    
-    • Superior shape retention
-    • Excellent wash durability
-    • Precise fusing temperature range
-    • Soft yet crisp hand feel
-    
-    Ideal for formal shirts and premium garments.`,
-    specifications: [
-      { label: 'Weight Range', value: '80-120 GSM' },
-      { label: 'Width', value: '90-150 cm' },
-      { label: 'Coating', value: 'PA, EVA' },
-      { label: 'Construction', value: 'Woven, Non-woven' }
-    ]
-  },
-  {
-    id: 8,
-    name: 'Shirt Collars',
-    category: 'shirt-collars',
-    images: [
-      '/images/shirt-collars/sc1.jpg',
-      '/images/shirt-collars/sc2.jpg',
-      '/images/shirt-collars/sc3.jpg',
-      '/images/shirt-collars/sc4.jpg',
-    ],
-    shortDescription: 'Ready-to-use fused collar materials for shirt manufacturing.',
-    description: `Pre-fused collar materials designed for efficient shirt manufacturing. Features:
-    
-    • Ready to cut and sew
-    • Multiple styles available
-    • Consistent quality
-    • Superior wash performance`,
-    specifications: [
-      { label: 'Styles', value: 'Regular, Cutaway, Button-down' },
-      { label: 'Base Fabric', value: 'Cotton, Poly-cotton' },
-      { label: 'Fusing Type', value: 'PA, EVA' },
-      { label: 'MOQ', value: '1000 pieces' }
-    ]
-  },
-  {
-    id: 9,
-    name: 'Shirt Cuffs',
-    category: 'shirt-cuffs',
-    images: [
-      '/images/shirt-cuffs/cu1.jpg',
-      '/images/shirt-cuffs/cu2.jpg',
-      '/images/shirt-cuffs/cu3.jpg',
-      '/images/shirt-cuffs/cu4.jpg',
-    ],
-    shortDescription: 'Pre-fused cuff materials for premium shirt manufacturing.',
-    description: `Ready-to-use fused cuff materials for efficient production. Features:
-    
-    • Consistent quality
-    • Multiple styles
-    • Excellent durability
-    • Easy processing`,
-    specifications: [
-      { label: 'Styles', value: 'Single, Double, Rounded' },
-      { label: 'Base Fabric', value: 'Cotton, Poly-cotton' },
-      { label: 'Fusing Type', value: 'PA, EVA' },
-      { label: 'MOQ', value: '1000 pieces' }
-    ]
-  },
-  {
-    id: 10,
-    name: 'Patti Rolls',
-    category: 'patti-rolls',
-    images: [
-      '/images/patti/pr1.jpg',
-      '/images/patti/pr2.jpg',
-      '/images/patti/pr3.jpg',
-      '/images/patti/pr4.jpg',
-    ],
-    shortDescription: 'Specialized interlining rolls for garment plackets and strips.',
-    description: `High-quality interlining rolls perfect for plackets and decorative strips. Features:
-    
-    • Clean cutting edges
-    • Consistent width
-    • Multiple widths available
-    • Excellent fusing properties`,
-    specifications: [
-      { label: 'Width Range', value: '1-4 inches' },
-      { label: 'Length', value: '50-100 meters' },
-      { label: 'Material', value: 'Woven, Non-woven' },
-      { label: 'Colors', value: 'White, Black' }
-    ]
-  },
-  {
-    id: 11,
-    name: 'Belt Rolls',
-    category: 'belt-rolls',
-    images: [
-      '/images/belt/br1.jpg',
-      '/images/belt/br2.jpg',
-      '/images/belt/br3.jpg',
-      '/images/belt/br4.jpg',
-    ],
-    shortDescription: 'Specialized interlining rolls for belt manufacturing.',
-    description: `Premium quality belt interlining rolls for various applications. Features:
-    
+    shortDescription: 'High-quality spunlace nonwoven fabric with superior softness and strength.',
+    description: `Premium spunlace nonwoven fabric featuring:
+
+    • Excellent softness
     • High strength
-    • Multiple widths
-    • Excellent stability
-    • Superior adhesion`,
+    • Good absorbency
+    • Lint-free surface
+    • Versatile applications
+    
+    Perfect for various technical and garment applications.`,
     specifications: [
-      { label: 'Width Range', value: '1-6 inches' },
-      { label: 'Length', value: '50-100 meters' },
-      { label: 'Material', value: 'Woven, Non-woven' },
-      { label: 'Coating', value: 'PA, EVA' }
+      { label: 'Weight Range', value: '30-100 GSM' },
+      { label: 'Width', value: '90-160 cm' },
+      { label: 'Fiber Type', value: 'Viscose, Polyester' },
+      { label: 'Surface', value: 'Lint-free' }
     ]
   }
 ];
