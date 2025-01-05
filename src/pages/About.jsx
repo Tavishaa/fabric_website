@@ -65,27 +65,6 @@ function About() {
             </FadeInWhenVisible>
           ))}
         </div>
-
-        
-
-        <FadeInWhenVisible>
-          <div className="bg-white rounded-lg shadow-lg p-8">
-            <h2 className="text-2xl font-semibold text-primary-dark mb-6">National Presence</h2>
-            <div className="prose max-w-none text-gray-700">
-              <p className="mb-4">
-                Our products are trusted by leading garment manufacturers throughout India. We export to:
-              </p>
-              <ul className="grid grid-cols-2 md:grid-cols-3 gap-4 list-none p-0">
-                <li>North America</li>
-                <li>Europe</li>
-                <li>Asia Pacific</li>
-                <li>Middle East</li>
-                <li>South America</li>
-                <li>Africa</li>
-              </ul>
-            </div>
-          </div>
-        </FadeInWhenVisible>
       </div>
     </div>
   );
