@@ -4,9 +4,9 @@ import FadeInWhenVisible from '../components/animations/FadeInWhenVisible';
 function About() {
   const stats = [
     { label: 'Years of Experience', value: '20+' },
-    { label: 'Countries Served', value: '30+' },
-    { label: 'Product Types', value: '100+' },
-    { label: 'Happy Clients', value: '1000+' }
+    { label: 'Cities Served', value: '10+' },
+    { label: 'Product Types', value: '50+' },
+    { label: 'Happy Clients', value: '100+' }
   ];
 
   const certifications = [
@@ -32,12 +32,10 @@ function About() {
             <div className="bg-white rounded-lg shadow-lg p-8">
               <h2 className="text-2xl font-semibold text-primary-dark mb-4">Our Story</h2>
               <p className="text-gray-700 mb-4">
-                With over two decades of experience in the textile industry, we have established ourselves
-                as a leading manufacturer, supplier, importer & trader of various types of interlining fabrics.
+                Established in 2007 by Mr. Jayesh Goyal, Hryday Enterprises has grown into a trusted name in the industry. Our dedicated team is committed to delivering high-quality, personalized services, fostering enduring partnerships with our clients.
               </p>
               <p className="text-gray-700">
-                Our commitment to quality and innovation has made us a trusted partner for businesses worldwide,
-                serving clients across multiple continents with our premium interlining solutions.
+                We pride ourselves on making each interaction meaningful and results-driven. With a foundation built on trust, integrity, and innovation, Hryday Enterprises consistently provides tailored solutions that exceed expectations, positioning us as a dependable partner in our clients' success.
               </p>
             </div>
           </FadeInWhenVisible>
@@ -68,37 +66,14 @@ function About() {
           ))}
         </div>
 
-        <FadeInWhenVisible>
-          <div className="bg-white rounded-lg shadow-lg p-8 mb-16">
-            <h2 className="text-2xl font-semibold text-primary-dark mb-6">Quality Assurance</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-xl font-semibold text-primary mb-4">Testing Facilities</h3>
-                <ul className="list-disc list-inside text-gray-700 space-y-2">
-                  <li>Advanced Material Testing Lab</li>
-                  <li>Wash Testing Facility</li>
-                  <li>Color Fastness Testing</li>
-                  <li>Strength and Durability Testing</li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold text-primary mb-4">Certifications</h3>
-                <ul className="list-disc list-inside text-gray-700 space-y-2">
-                  {certifications.map(cert => (
-                    <li key={cert}>{cert}</li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
-        </FadeInWhenVisible>
+        
 
         <FadeInWhenVisible>
           <div className="bg-white rounded-lg shadow-lg p-8">
-            <h2 className="text-2xl font-semibold text-primary-dark mb-6">Global Presence</h2>
+            <h2 className="text-2xl font-semibold text-primary-dark mb-6">National Presence</h2>
             <div className="prose max-w-none text-gray-700">
               <p className="mb-4">
-                Our products are trusted by leading garment manufacturers across the globe. We export to:
+                Our products are trusted by leading garment manufacturers throughout India. We export to:
               </p>
               <ul className="grid grid-cols-2 md:grid-cols-3 gap-4 list-none p-0">
                 <li>North America</li>
