@@ -19,14 +19,19 @@ function Header() {
 
   return (
     <header className="bg-primary text-background shadow-lg relative z-50">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-0">
         <div className="flex justify-between items-center py-4">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            className="flex items-center"
+            className="flex items-center space-x-3 -ml-6"
           >
-            <img src="https://plus.unsplash.com/premium_photo-1661914978519-52a11fe159a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bG9nb3xlbnwwfHwwfHx8MA%3D%3D" alt="Company Logo" className="h-12" />
+            <img 
+              src="logo.png" 
+              alt="Company Logo" 
+              className="h-24 w-24 object-contain -my-6" 
+            />
+            <span className="text-2xl font-['Times_New_Roman'] font-semibold">Hryday Enterprises</span>
           </motion.div>
 
           <nav className="hidden md:flex space-x-6 font-primary">
