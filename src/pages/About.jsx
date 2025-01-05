@@ -54,7 +54,7 @@ function About() {
                 <FadeInWhenVisible delay={0.2}>
                   <div className="rounded-lg overflow-hidden h-[400px]">
                     <img 
-                      src="about.png.jpg" 
+                      src="/about.png.jpg" 
                       alt="About Us" 
                       className="w-full h-full object-cover hover:scale-105 transition-all duration-300"
                     />

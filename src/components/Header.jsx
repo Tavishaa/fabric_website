@@ -27,7 +27,7 @@ function Header() {
             className="flex items-center space-x-1"
           >
             <img 
-              src="logo.png" 
+              src="/logo.png" 
               alt="Company Logo" 
               className="h-24 w-24 object-contain -my-6" 
             />
