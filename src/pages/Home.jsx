@@ -14,9 +14,9 @@ function Home() {
     },
     {
       id: 2,
-      name: 'Non Woven Fusible Interlinings',
+      name: 'Woven Fusible Interlinings',
       image: 'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      shortDescription: 'Premium fusible interlinings for garment manufacturing.',
+      shortDescription: 'Premium fusible interlinings for garment industries.',
     },
     {
       id: 3,
@@ -64,6 +64,14 @@ function Home() {
             ].map(product => (
               <ProductCard key={product.id} product={product} />
             ))}
+          </div>
+          <div className="text-center mt-12">
+            <Link
+              to="/products"
+              className="inline-block bg-gradient-to-r from-primary to-primary-dark text-white px-8 py-3 rounded-md hover:opacity-90 transition-all duration-300 font-semibold shadow-md hover:shadow-lg"
+            >
+              View All Products
+            </Link>
           </div>
         </div>
       </section>

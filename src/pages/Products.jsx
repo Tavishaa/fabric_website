@@ -3,6 +3,11 @@ import { products } from '../data/products';
 import ProductCard from '../components/ProductCard';
 
 function Products() {
+  // First 4 products
+  const topRowProducts = products.slice(0, 4);
+  // Last 3 products
+  const bottomRowProducts = products.slice(4);
+
   return (
     <div className="py-16 bg-secondary-light min-h-screen">
       <div className="container mx-auto px-4">
@@ -14,8 +19,16 @@ function Products() {
           Our Products
         </motion.h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {products.map(product => (
+        {/* Top row - 4 products */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+          {topRowProducts.map(product => (
+            <ProductCard key={product.id} product={product} />
+          ))}
+        </div>
+
+        {/* Bottom row - 3 products centered */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+          {bottomRowProducts.map(product => (
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
