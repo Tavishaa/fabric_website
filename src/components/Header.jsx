@@ -26,19 +26,19 @@ function Header() {
 
   return (
     <header className="bg-primary text-background shadow-lg relative z-50">
-      <div className="container mx-auto px-0">
+      <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            className="flex items-center space-x-1"
+            className="flex items-center space-x-1 -ml-4 sm:-ml-6 md:-ml-8 lg:-ml-10"
           >
             <img 
               src="/logo.png" 
               alt="Company Logo" 
-              className="h-24 w-24 object-contain -my-6" 
+              className="h-16 w-16 sm:h-20 sm:w-20 md:h-24 md:w-24 object-contain -my-6" 
             />
-            <span className="text-3xl font-['Times_New_Roman'] font-bold">Hryday Enterprises</span>
+            <span className="text-xl sm:text-2xl md:text-3xl font-['Times_New_Roman'] font-bold">Hryday Enterprises</span>
           </motion.div>
 
           <nav className="hidden md:flex space-x-6 font-primary">
