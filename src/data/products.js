@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1,
-    name: 'Woven Fusible Interlining',
+    name: 'Woven Fusible Interlining For Garment Industry',
     category: 'woven-fusible',
     images: [
       'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
@@ -18,17 +18,22 @@ export const products = [
     • High durability
     • Wash resistance
     
-    Perfect for formal wear, suits, and structured garments.`,
+    Used for: 
+    • Collars 
+    • Cuffs 
+    • Placket 
+    • Belt roll 
+    • Loop 
+    • Collar band.`,
     specifications: [
-      { label: 'Weight Range', value: '80-150 GSM' },
-      { label: 'Width', value: '90-150 cm' },
-      { label: 'Coating', value: 'PA, EVA' },
-      { label: 'Wash Temperature', value: 'Up to 60°C' }
+      { label: 'Weight Range', value: '65-250 GSM' },
+      { label: 'Coating', value: 'HDPE' },
+      { label: 'Type', value: 'Cotton, Polyester Cotton' }
     ]
   },
   {
     id: 2,
-    name: 'Thermal Bond Nonwoven Microdot Fusible',
+    name: 'Thermal Bond Nonwoven Microdot Fusible Interlining',
     category: 'nonwoven-microdot',
     images: [
       'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
@@ -45,12 +50,15 @@ export const products = [
     • Uniform bonding
     • Enhanced durability
     
-    Ideal for lightweight to medium-weight fabrics.`,
+    Used for: 
+    • Garment Interlining (Collar/Cuff/Placket/Belt Rolls).
+    • Casual Shirts
+    • Ladies Garments`,
     specifications: [
-      { label: 'Weight Range', value: '30-100 GSM' },
-      { label: 'Width', value: '90-150 cm' },
-      { label: 'Coating Type', value: 'Microdot PA' },
-      { label: 'Bond Strength', value: 'High' }
+      { label: 'Weight Range', value: '22-80 GSM' },
+      { label: 'Width', value: '100-150 cm' },
+      { label: 'Coating Type', value: 'PES, PA' },
+      { label: 'Type', value: 'Polyester' }
     ]
   },
   {
@@ -64,19 +72,28 @@ export const products = [
       'https://4.imimg.com/data4/QY/YX/MY-3554754/non-woven-interlining-fabric-500x500.jpg'
     ],
     shortDescription: 'Versatile chemical bonded non woven fabrics available in both fusible and non-fusible variants.',
-    description: `High-quality chemical bonded non woven fabrics suitable for various applications:
+    description: `High-quality chemical bonded non woven fabrics suitable with various features:
 
     • Chemical bonding technology
     • Available in fusible and non-fusible options
     • Superior strength and durability
     • Consistent quality
-    • Multiple weight options
-    • Versatile applications`,
+
+    Used for:
+    • Garment manufacturing
+    • Bag making
+    • Packaging
+    • Industrial applications
+    • Silica Gel Pouches
+    • Injection Swabs
+    • Fibre Glass - Reinforcement layer
+    • Filter Fabric - Air, Water, Oil filter`,
+
     specifications: [
-      { label: 'Weight Range', value: '30-120 GSM' },
-      { label: 'Width', value: '90-160 cm' },
-      { label: 'Types', value: 'Fusible, Non-fusible' },
-      { label: 'Colors', value: 'White, Black, Custom' }
+      { label: 'Weight Range', value: '20-80 GSM' },
+      { label: 'Width', value: '100-120 cm' },
+      { label: 'Type', value: 'Polyester Viscose' },
+      { label: 'Colors', value: 'White, Black' }
     ]
   },
   {
