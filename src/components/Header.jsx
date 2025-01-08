@@ -38,7 +38,7 @@ function Header() {
               alt="Company Logo" 
               className="h-16 w-16 sm:h-20 sm:w-20 md:h-24 md:w-24 object-contain -my-6" 
             />
-            <span className="text-xl sm:text-2xl md:text-3xl font-['Times_New_Roman'] font-bold">Hryday Enterprises</span>
+            <span className="text-xl sm:text-2xl md:text-3xl font-['Times_New_Roman'] font-semibold">Hryday Enterprises</span>
           </motion.div>
 
           <nav className="hidden md:flex space-x-6 font-primary">

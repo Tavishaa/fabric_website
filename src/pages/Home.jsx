@@ -1,4 +1,6 @@
 import { motion } from 'framer-motion';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCut, faRuler, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import Carousel from '../components/Carousel';
 import ProductCard from '../components/ProductCard';
 import ContactForm from '../components/ContactForm';
@@ -116,15 +118,22 @@ function Home() {
             Our Services
           </motion.h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {[
               {
                 title: 'Die Cutting Services',
+                icon: 'faCut',
                 description: 'Specialized in precision die cutting for collar, cuff, band, skin and patch components.'
               },
               {
-                title: 'Slitting Services',
+                title: 'Precision Slitting',
+                icon: 'faRuler',
                 description: 'Expert slitting services for placket, patti roll and trouser belt rolls with precise measurements.'
+              },
+              {
+                title: 'Quality Testing',
+                icon: 'faMagnifyingGlass',
+                description: 'Comprehensive quality control and testing to ensure all products meet industry standards.'
               }
             ].map((service, index) => (
               <motion.div
@@ -132,10 +141,20 @@ function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-white/80 backdrop-blur-sm p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border border-white/10"
+                className="bg-white group hover:bg-primary p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-500 border border-primary/10 relative overflow-hidden"
               >
-                <h3 className="text-xl font-semibold text-primary mb-4">{service.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{service.description}</p>
+                <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-primary/0 group-hover:from-white/10 group-hover:to-white/5 transition-all duration-500"></div>
+                <div className="relative z-10">
+                  <div className="text-primary group-hover:text-white text-4xl mb-6 transform group-hover:scale-110 transition-all duration-500">
+                    <FontAwesomeIcon icon={service.icon} />
+                  </div>
+                  <h3 className="text-xl font-semibold text-primary group-hover:text-white mb-4 transform group-hover:-translate-y-1 transition-all duration-500">
+                    {service.title}
+                  </h3>
+                  <p className="text-gray-600 group-hover:text-white/90 leading-relaxed transform group-hover:-translate-y-1 transition-all duration-500">
+                    {service.description}
+                  </p>
+                </div>
               </motion.div>
             ))}
           </div>

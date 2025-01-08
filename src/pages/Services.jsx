@@ -99,33 +99,37 @@ function Services() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-semibold text-center mb-12 text-primary-dark">Manufacturing Excellence</h2>
           <div className="max-w-4xl mx-auto">
-            <div className="bg-white rounded-lg shadow-lg p-10 border border-gray-100 hover:shadow-xl transition-all duration-300">
-              <div className="text-3xl mb-4 text-primary">
-                <FontAwesomeIcon icon={faIndustry} />
+            <FadeInWhenVisible delay={0.2}>
+              <div
+                className="bg-white rounded-lg shadow-lg p-10 hover:shadow-xl border border-gray-100 group hover:-translate-y-1 transition-all duration-300 h-full"
+              >
+                <div className="text-primary text-4xl mb-6 group-hover:scale-110 transition-transform duration-300">
+                  <FontAwesomeIcon icon={faIndustry} />
+                </div>
+                <h3 className="text-2xl font-semibold text-primary mb-4">
+                  State-of-the-Art Facility
+                </h3>
+                <p className="text-gray-600 mb-8 leading-relaxed">
+                  Our modern manufacturing facility is equipped with the latest technology to ensure precise cutting and slitting for all garment components.
+                </p>
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
+                  {[
+                    'Advanced Die Cutting Machines',
+                    'Precision Slitting Equipment',
+                    'Quality Control Systems',
+                    'Modern Production Lines'
+                  ].map((item, index) => (
+                    <li key={index} className="flex items-center text-gray-600 hover:text-primary transition-colors duration-300">
+                      <FontAwesomeIcon 
+                        icon={faCheckCircle} 
+                        className="text-primary mr-3 text-base flex-shrink-0"
+                      />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <h3 className="text-2xl font-semibold text-primary mb-4">
-                State-of-the-Art Facility
-              </h3>
-              <p className="text-gray-600 mb-8 leading-relaxed">
-                Our modern manufacturing facility is equipped with the latest technology to ensure precise cutting and slitting for all garment components.
-              </p>
-              <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
-                {[
-                  'Advanced Die Cutting Machines',
-                  'Precision Slitting Equipment',
-                  'Quality Control Systems',
-                  'Modern Production Lines'
-                ].map((item, index) => (
-                  <li key={index} className="flex items-center text-gray-600 hover:text-primary transition-colors duration-300">
-                    <FontAwesomeIcon 
-                      icon={faCheckCircle} 
-                      className="text-primary mr-3 text-base flex-shrink-0"
-                    />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
+            </FadeInWhenVisible>
           </div>
         </div>
       </section>
