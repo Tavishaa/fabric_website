@@ -4,9 +4,9 @@ export const products = [
     name: 'Woven Fusible Interlining For Garment Industry',
     category: 'woven-fusible',
     images: [
-      'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
-      'https://5.imimg.com/data5/SELLER/Default/2021/3/KO/QG/XG/3823480/woven-fusible-interlining-fabric-500x500.jpg',
-      'https://img.freepik.com/premium-photo/close-up-textile-fabric-texture-background_67155-3877.jpg',
+      'src\data\woven1.jpg',
+      'public\woven2.jpg',
+      'public\woven3.jpg',
       'https://www.textileblog.com/wp-content/uploads/2018/03/fusible-interlining-fabric.jpg'
     ],
     shortDescription: 'Premium woven fusible interlining for garment industry with superior adhesion and durability.',
