@@ -11,14 +11,13 @@ export const products = [
     ],
     shortDescription: 'Premium woven fusible interlining for garment industry with superior adhesion and durability.',
     description: `Our woven fusible interlining provides excellent shape retention and durability for garment applications. Features include:
-
     • Superior bonding strength
     • Excellent shape retention
     • Consistent coating
     • High durability
     • Wash resistance
     
-    Used for: 
+    Uses: 
     • Collars 
     • Cuffs 
     • Placket 
@@ -28,7 +27,7 @@ export const products = [
     specifications: [
       { label: 'Weight Range', value: '65-250 GSM' },
       { label: 'Coating', value: 'HDPE' },
-      { label: 'Type', value: 'Cotton, Polyester Cotton' }
+      { label: 'Material', value: 'Cotton, Polyester Cotton' }
     ]
   },
   {
@@ -43,14 +42,13 @@ export const products = [
     ],
     shortDescription: 'Advanced microdot fusible interlining with thermal bonding technology.',
     description: `Our thermal bond nonwoven microdot fusible interlining features advanced bonding technology for superior performance:
-
     • Precise microdot coating
     • Excellent adhesion strength
     • Soft hand feel
     • Uniform bonding
     • Enhanced durability
     
-    Used for: 
+    Uses: 
     • Garment Interlining (Collar/Cuff/Placket/Belt Rolls).
     • Casual Shirts
     • Ladies Garments`,
@@ -58,7 +56,7 @@ export const products = [
       { label: 'Weight Range', value: '22-80 GSM' },
       { label: 'Width', value: '100-150 cm' },
       { label: 'Coating Type', value: 'PES, PA' },
-      { label: 'Type', value: 'Polyester' }
+      { label: 'Material', value: 'Polyester' }
     ]
   },
   {
@@ -73,13 +71,12 @@ export const products = [
     ],
     shortDescription: 'Versatile chemical bonded non woven fabrics available in both fusible and non-fusible variants.',
     description: `High-quality chemical bonded non woven fabrics suitable with various features:
-
     • Chemical bonding technology
     • Available in fusible and non-fusible options
     • Superior strength and durability
     • Consistent quality
 
-    Used for:
+    Uses:
     • Garment manufacturing
     • Bag making
     • Packaging
@@ -92,7 +89,7 @@ export const products = [
     specifications: [
       { label: 'Weight Range', value: '20-80 GSM' },
       { label: 'Width', value: '100-120 cm' },
-      { label: 'Type', value: 'Polyester Viscose' },
+      { label: 'Material', value: 'Polyester Viscose' },
       { label: 'Colors', value: 'White, Black' }
     ]
   },
@@ -108,7 +105,6 @@ export const products = [
     ],
     shortDescription: 'High-quality chemical bonded polypropylene non woven fabric for diverse applications.',
     description: `Premium chemical bonded polypropylene non woven fabric offering:
-
     • Chemical bonding process
     • Superior strength and durability
     • Enhanced air permeability
@@ -116,12 +112,21 @@ export const products = [
     • Cost-effective solution
     • Environmental friendly
     
-    Suitable for various industrial and garment applications.`,
+    Uses:
+    • Quilting backing
+    • Silica Gel
+    • Seat Cover lamination and backing
+    • Filteration in Air, Water and Oil filters
+    • Gripper backing
+    • Furniture - Bed & Sofa cover
+    • Home furnishing - Matteresses & Pillow cover
+    • Face masks`,
     specifications: [
+      { label: 'Weight Range', value: '8-180 GSM' },
+      { label: 'Width', value: '160-320 cm' },
       { label: 'Material', value: 'Polypropylene' },
-      { label: 'Weight Range', value: '20-100 GSM' },
-      { label: 'Width', value: '90-160 cm' },
-      { label: 'Surface Treatment', value: 'Available' }
+      { label: 'Colour', value: 'Black, White, Custom' }
+      
     ]
   },
   {
@@ -136,18 +141,21 @@ export const products = [
     ],
     shortDescription: 'Premium polyester-based fusible interlining for enhanced garment structure.',
     description: `High-performance polyester fusible interlining featuring:
-
     • Superior adhesion properties
     • Excellent shape retention
     • Consistent coating
     • Durable bond strength
     • Wash resistant
     
-    Ideal for various garment applications.`,
+    Uses:
+    • Blazer
+    • Ladies Garment
+    • Trousers
+    • Stretchable Garments`,
     specifications: [
-      { label: 'Material', value: 'Polyester' },
       { label: 'Weight Range', value: '40-120 GSM' },
       { label: 'Width', value: '90-150 cm' },
+      { label: 'Material', value: 'Polyester' },
       { label: 'Coating', value: 'PA, EVA' }
     ]
   },
@@ -163,14 +171,18 @@ export const products = [
     ],
     shortDescription: 'Specialized PVC/PU coated fabrics for technical applications.',
     description: `High-quality coated fabrics with:
-
     • Water resistance
     • Durability
     • Flexible coating options
     • Custom specifications
     • Multiple finish options
     
-    Suitable for technical and specialized applications.`,
+    Uses:
+    • Stationery
+    • Bags
+    • Seat covers
+    • Hospital mattress
+    • Furnishing`,
     specifications: [
       { label: 'Coating Type', value: 'PVC, PU' },
       { label: 'Base Fabric', value: 'Various' },
@@ -190,14 +202,18 @@ export const products = [
     ],
     shortDescription: 'High-quality spunlace nonwoven fabric with superior softness and strength.',
     description: `Premium spunlace nonwoven fabric featuring:
-
     • Excellent softness
     • High strength
     • Good absorbency
     • Lint-free surface
     • Versatile applications
     
-    Perfect for various technical and garment applications.`,
+    Uses:
+    • Face Wipes
+    • Hospital disposable Bed Cover
+    • Apron - Disposable Garment
+    • Filteration Oil & liquid filters
+    • Cosmetic Application - Makeup removal wipes`,
     specifications: [
       { label: 'Weight Range', value: '30-100 GSM' },
       { label: 'Width', value: '90-160 cm' },
