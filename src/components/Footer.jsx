@@ -5,10 +5,13 @@ import { faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   const productCategories = [
-    { title: 'Non-Woven Products', path: '/products#nonwoven' },
-    { title: 'Fusible Interlinings', path: '/products#fusible' },
-    { title: 'Shirt Components', path: '/products#shirt' },
-    { title: 'Specialty Products', path: '/products#specialty' }
+    { title: 'Woven Fusible Interlining', path: '/product/1' },
+    { title: 'Thermal Bond Nonwoven', path: '/product/2' },
+    { title: 'Chemical Bond Non Woven', path: '/product/3' },
+    { title: 'PP Non Woven Fabric', path: '/product/4' },
+    { title: 'Polyester Fusible', path: '/product/5' },
+    { title: 'PVC/PU Coated Fabric', path: '/product/6' },
+    { title: 'Spunlace Nonwoven', path: '/product/7' }
   ];
 
   return (
