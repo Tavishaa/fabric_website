@@ -60,7 +60,7 @@ function Contact() {
                 <h3 className="font-medium mr-4">Connect with us:</h3>
                 <div className="flex space-x-4">
                   <a 
-                    href="https://wa.me/1234567890" 
+                    href="https://wa.me/+919769171415" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-primary hover:text-primary-dark transition-colors duration-300 text-2xl"

@@ -8,7 +8,7 @@ function Footer() {
     { title: 'Woven Fusible Interlining', path: '/product/1' },
     { title: 'Thermal Bond Nonwoven', path: '/product/2' },
     { title: 'Chemical Bond Non Woven', path: '/product/3' },
-    { title: 'PP Non Woven Fabric', path: '/product/4' },
+    { title: 'Polypropylene Non Woven Fabric', path: '/product/4' },
     { title: 'Polyester Fusible', path: '/product/5' },
     { title: 'PVC/PU Coated Fabric', path: '/product/6' },
     { title: 'Spunlace Nonwoven', path: '/product/7' }

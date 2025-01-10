@@ -15,11 +15,11 @@ function Services() {
       title: 'Die Cutting Services',
       description: 'Specialized in precision die cutting for garment components',
       features: [
-        'Collar components',
-        'Cuff pieces',
-        'Band materials',
-        'Skin components',
-        'Patch elements'
+        'Collars',
+        'Cuffs',
+        'Band',
+        'Skin',
+        'Patches'
       ]
     },
     {
@@ -27,7 +27,7 @@ function Services() {
       title: 'Slitting Services',
       description: 'Expert slitting services for garment manufacturing',
       features: [
-        'Placket materials',
+        'Plackets',
         'Patti rolls',
         'Trouser belt rolls',
         'Custom width options',

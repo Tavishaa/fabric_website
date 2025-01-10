@@ -16,7 +16,7 @@ function Header() {
         { id: 1, name: 'Woven Fusible Interlining', category: 'woven-fusible' },
         { id: 2, name: 'Thermal Bond Nonwoven Microdot Fusible', category: 'nonwoven-microdot' },
         { id: 3, name: 'Chemical Bond Non Woven Fusible & Non Fusible Fabric', category: 'nonwoven-fabric' },
-        { id: 4, name: 'Chemical Bond P.P Non Woven Fabric', category: 'pp-nonwoven' },
+        { id: 4, name: 'Polypropylene Non Woven Fabric', category: 'pp-nonwoven' },
         { id: 5, name: 'Polyester Fusible Interlining', category: 'polyester-fusible' },
         { id: 6, name: 'PVC/PU Coated Fabric', category: 'coated-fabric' },
         { id: 7, name: 'Spunlace Nonwoven Fabric', category: 'spunlace' }

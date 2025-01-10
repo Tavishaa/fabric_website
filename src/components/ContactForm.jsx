@@ -92,7 +92,7 @@ function ContactForm() {
                     <option value="woven-fusible">Woven Fusible Interlining</option>
                     <option value="nonwoven-microdot">Thermal Bond Nonwoven Microdot Fusible</option>
                     <option value="nonwoven-fabric">Chemical Bond Non Woven Fusible & Non Fusible Fabric</option>
-                    <option value="pp-nonwoven">Chemical Bond P.P Non Woven Fabric</option>
+                    <option value="pp-nonwoven">Polypropelene Non Woven Fabric</option>
                     <option value="polyester-fusible">Polyester Fusible Interlining</option>
                     <option value="coated-fabric">PVC/PU Coated Fabric</option>
                     <option value="spunlace">Spunlace Nonwoven Fabric</option>

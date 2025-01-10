@@ -11,7 +11,7 @@ export const products = [
     ],
     shortDescription: 'Premium woven fusible interlining for garment industry with superior adhesion and durability.',
     description: `Our woven fusible interlining provides excellent shape retention and durability for garment applications. Features include:
-    • Superior bonding strength
+    • Good bonding
     • Excellent shape retention
     • Consistent coating
     • High durability
@@ -70,7 +70,7 @@ export const products = [
       'https://4.imimg.com/data4/QY/YX/MY-3554754/non-woven-interlining-fabric-500x500.jpg'
     ],
     shortDescription: 'Versatile chemical bonded non woven fabrics available in both fusible and non-fusible variants.',
-    description: `High-quality chemical bonded non woven fabrics suitable with various features:
+    description: `High-quality chemical bonded non woven fabrics with various features:
     • Chemical bonding technology
     • Available in fusible and non-fusible options
     • Superior strength and durability
@@ -81,10 +81,10 @@ export const products = [
     • Bag making
     • Packaging
     • Industrial applications
-    • Silica Gel Pouches
-    • Injection Swabs
-    • Fibre Glass - Reinforcement layer
-    • Filter Fabric - Air, Water, Oil filter`,
+    • Silica gel pouches
+    • Injection swabs
+    • Fibre glass - reinforcement layer
+    • Filter fabric - air, water, oil filter`,
 
     specifications: [
       { label: 'Weight Range', value: '20-80 GSM' },
@@ -95,7 +95,7 @@ export const products = [
   },
   {
     id: 4,
-    name: 'Chemical Bond P.P Non Woven Fabric',
+    name: 'Polypropylene Non Woven Fabric',
     category: 'pp-nonwoven',
     images: [
       'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
@@ -103,23 +103,23 @@ export const products = [
       'https://5.imimg.com/data5/SELLER/Default/2023/7/325885068/QE/YG/KR/195692734/pp-non-woven-fabric.jpeg',
       'https://5.imimg.com/data5/ANDROID/Default/2023/1/XP/CX/JK/14437719/product-jpeg.jpg'
     ],
-    shortDescription: 'High-quality chemical bonded polypropylene non woven fabric for diverse applications.',
-    description: `Premium chemical bonded polypropylene non woven fabric offering:
+    shortDescription: 'High-quality polypropylene non woven fabric for diverse applications.',
+    description: `Premium polypropylene non woven fabric offering:
     • Chemical bonding process
     • Superior strength and durability
     • Enhanced air permeability
     • Chemical resistance
     • Cost-effective solution
-    • Environmental friendly
+    • Environment friendly & recyclable
     
     Uses:
     • Quilting backing
-    • Silica Gel
-    • Seat Cover lamination and backing
-    • Filteration in Air, Water and Oil filters
+    • Silica gel
+    • Seat cover lamination and backing
+    • Filteration in air, water and oil filters
     • Gripper backing
-    • Furniture - Bed & Sofa cover
-    • Home furnishing - Matteresses & Pillow cover
+    • Furniture - bed & sofa cover
+    • Home furnishing - matteresses & pillow cover
     • Face masks`,
     specifications: [
       { label: 'Weight Range', value: '8-180 GSM' },
@@ -149,9 +149,9 @@ export const products = [
     
     Uses:
     • Blazer
-    • Ladies Garment
+    • Ladies garment
     • Trousers
-    • Stretchable Garments`,
+    • Stretchable garments`,
     specifications: [
       { label: 'Weight Range', value: '40-120 GSM' },
       { label: 'Width', value: '90-150 cm' },
@@ -186,7 +186,7 @@ export const products = [
     specifications: [
       { label: 'Coating Type', value: 'PVC, PU' },
       { label: 'Base Fabric', value: 'Various' },
-      { label: 'Width', value: '90-150 cm' },
+      { label: 'Width', value: '137 cm' },
       { label: 'Properties', value: 'Water-resistant' }
     ]
   },
@@ -209,15 +209,15 @@ export const products = [
     • Versatile applications
     
     Uses:
-    • Face Wipes
-    • Hospital disposable Bed Cover
-    • Apron - Disposable Garment
-    • Filteration Oil & liquid filters
-    • Cosmetic Application - Makeup removal wipes`,
+    • Face wipes
+    • Hospital disposable bed cover
+    • Apron - disposable garment
+    • Filteration oil & liquid filters
+    • Cosmetic application - makeup removal wipes`,
     specifications: [
       { label: 'Weight Range', value: '30-100 GSM' },
-      { label: 'Width', value: '90-160 cm' },
-      { label: 'Fiber Type', value: 'Viscose, Polyester' },
+      { label: 'Width', value: '160 cm' },
+      { label: 'Fiber Type', value: 'Polyester, Viscose, Poly-Viscose' },
       { label: 'Surface', value: 'Lint-free' }
     ]
   }
