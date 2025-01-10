@@ -29,8 +29,8 @@ function Contact() {
                 <FontAwesomeIcon icon={faPhone} className="text-primary text-xl" />
                 <div className="ml-4">
                   <h3 className="font-medium">Phone</h3>
-                  <a href="tel:+1234567890" className="text-gray-600 hover:text-primary">
-                    +1 (234) 567-890
+                  <a href="tel:+919769171415" className="text-gray-600 hover:text-primary">
+                    +91 9769171415
                   </a>
                 </div>
               </div>
@@ -39,9 +39,14 @@ function Contact() {
                 <FontAwesomeIcon icon={faEnvelope} className="text-primary text-xl" />
                 <div className="ml-4">
                   <h3 className="font-medium">Email</h3>
-                  <a href="mailto:contact@example.com" className="text-gray-600 hover:text-primary">
-                    contact@example.com
+                  <a href="mailto:hrydayenterprises@gmail.com" className="text-gray-600 hover:text-primary">
+                    hrydayenterprises@gmail.com
                   </a>
+                  <div>
+                <a href="mailto:goyaljayesh@yahoo.com" className="text-gray-600 hover:text-primary">
+                  goyaljayesh@yahoo.com 
+                </a>
+                </div>
                 </div>
               </div>
 
@@ -50,8 +55,11 @@ function Contact() {
                 <div className="ml-4">
                   <h3 className="font-medium">Address</h3>
                   <p className="text-gray-600">
-                    123 Business Street<br />
-                    City, Country
+                    Shop No. 3, Lorik Yadav Premises,<br />
+                    Santosh Nagar, Scout Camp Road,<br />
+                    Off Link Rd, Behind Cafe City Corner,<br />
+                    Behram Baug, Jogeshwari (West),<br />
+                    Mumbai - 400102.
                   </p>
                 </div>
               </div>
@@ -68,7 +76,7 @@ function Contact() {
                     <FontAwesomeIcon icon={faWhatsapp} />
                   </a>
                   <a 
-                    href="https://linkedin.com/company/your-company" 
+                    href="https://www.linkedin.com/company/105148537/admin/dashboard/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-primary hover:text-primary-dark transition-colors duration-300 text-2xl"

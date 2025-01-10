@@ -23,19 +23,31 @@ function Footer() {
             <div className="space-y-2">
               <p>
                 <FontAwesomeIcon icon={faPhone} className="mr-2" />
-                <a href="tel:+1234567890" className="hover:text-secondary/90 transition">
-                  +1 (234) 567-890
+                <a href="tel:+919769171415" className="hover:text-secondary/90 transition">
+                  +91 9769171415
                 </a>
               </p>
               <p>
+                
+                <div>
                 <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
-                <a href="mailto:contact@example.com" className="hover:text-secondary/90 transition">
-                  contact@example.com
+                <a href="mailto:hrydayenterprises@gmail.com" className="hover:text-secondary/90 transition">
+                  hrydayenterprises@gmail.com 
                 </a>
+                </div>
+                <div>
+                <a href="mailto:goyaljayesh@yahoo.com" className="hover:text-secondary/90 transition">
+                  goyaljayesh@yahoo.com 
+                </a>
+                </div>
               </p>
               <p>
                 <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2" />
-                123 Business Street, City, Country
+                Shop No. 3, Lorik Yadav Premises,<br/>
+                Santosh Nagar, Scout Camp Road,<br/>
+                Off Link Rd, Behind Cafe City Corner,<br/>
+                Behram Baug, Jogeshwari (West),<br/>
+                Mumbai - 400102.
               </p>
             </div>
           </div>
@@ -70,7 +82,7 @@ function Footer() {
             <h3 className="text-xl font-heading font-semibold mb-4">Connect With Us</h3>
             <div className="flex space-x-4">
               <a 
-                href="https://wa.me/1234567890" 
+                href="https://wa.me/+919769171415" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-white hover:text-secondary transition-colors duration-300 text-2xl"
@@ -78,7 +90,7 @@ function Footer() {
                 <FontAwesomeIcon icon={faWhatsapp} />
               </a>
               <a 
-                href="https://linkedin.com/company/your-company" 
+                href="https://www.linkedin.com/company/105148537/admin/dashboard/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-white hover:text-secondary transition-colors duration-300 text-2xl"
@@ -90,7 +102,7 @@ function Footer() {
         </div>
         
         <div className="mt-8 pt-8 border-t border-secondary/20 text-center">
-          <p className="font-primary">&copy; {new Date().getFullYear()} Your Company Name. All rights reserved.</p>
+          <p className="font-primary">&copy; {new Date().getFullYear()} Hryday Enterprises. All rights reserved.</p>
         </div>
       </div>
     </footer>

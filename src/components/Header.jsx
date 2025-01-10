@@ -88,15 +88,15 @@ function Header() {
 
           {/* Desktop Contact Icons */}
           <div className="hidden md:flex items-center space-x-4">
-            <a href="tel:+1234567890" className="text-secondary hover:text-secondary/80 transition-colors duration-300">
+            <a href="tel:+919769171415" className="text-secondary hover:text-secondary/80 transition-colors duration-300">
               <FontAwesomeIcon icon={faPhone} />
             </a>
-            <a href="mailto:contact@example.com" className="text-secondary hover:text-secondary/80 transition-colors duration-300">
+            <a href="mailto:hrydayenterprises@gmail.com" className="text-secondary hover:text-secondary/80 transition-colors duration-300">
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
             <div className="border-l border-background/20 h-6 mx-2"></div>
             <a 
-              href="https://wa.me/1234567890" 
+              href="https://wa.me/+919769171415" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-secondary hover:text-secondary/80 transition-colors duration-300"
@@ -104,7 +104,7 @@ function Header() {
               <FontAwesomeIcon icon={faWhatsapp} size="lg" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/company/105148537/admin/dashboard/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-secondary hover:text-secondary/80 transition-colors duration-300"
