@@ -18,7 +18,7 @@ function ContactForm() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('https://script.google.com/macros/s/AKfycbxIC7_cZSVBHFboXF_HhTp5onAQa0E2O2vgqnzSEy0zNsJ6agIwgF83eVmpmNR1LHTe/exec', {
+      const response = await fetch('https://script.google.com/macros/s/AKfycbzrqtrLvPqW4qBYysZnv32_3aNrUiDrWFKQeK_97YJlYr05_wCXObdwYOMLnKyszYqaJA/exec', {
         method: 'POST',
         mode: 'no-cors',
         headers: {
@@ -89,14 +89,14 @@ function ContactForm() {
                     onChange={handleChange}
                   >
                     <option value="">Select a product</option>
-                    <option value="woven-fusible">Woven Fusible Interlining</option>
-                    <option value="nonwoven-microdot">Thermal Bond Nonwoven Microdot Fusible</option>
-                    <option value="nonwoven-fabric">Chemical Bond Non Woven Fusible & Non Fusible Fabric</option>
-                    <option value="pp-nonwoven">Polypropelene Non Woven Fabric</option>
-                    <option value="polyester-fusible">Polyester Fusible Interlining</option>
-                    <option value="coated-fabric">PVC/PU Coated Fabric</option>
-                    <option value="spunlace">Spunlace Nonwoven Fabric</option>
-                    <option value="other">Other</option>
+                    <option value="Woven Fusible Interlining">Woven Fusible Interlining</option>
+                    <option value="Thermal Bond Nonwoven Microdot Fusible">Thermal Bond Nonwoven Microdot Fusible</option>
+                    <option value="Chemical Bond Non Woven Fusible & Non Fusible Fabric">Chemical Bond Non Woven Fusible & Non Fusible Fabric</option>
+                    <option value="Polypropelene Non Woven Fabric">Polypropelene Non Woven Fabric</option>
+                    <option value="Polyester Fusible Interlining">Polyester Fusible Interlining</option>
+                    <option value="PVC/PU Coated Fabric">PVC/PU Coated Fabric</option>
+                    <option value="Spunlace Nonwoven Fabric">Spunlace Nonwoven Fabric</option>
+                    <option value="Other">Other</option>
                   </select>
                 ) : (
                   <input
