@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import { faPhone, faEnvelope, faMapMarkerAlt, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
@@ -29,19 +29,23 @@ function Footer() {
               </p>
               <p>
                 
-                <div>
-                <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
-                <a href="mailto:hrydayenterprises@gmail.com" className="hover:text-secondary/90 transition">
-                  hrydayenterprises@gmail.com 
-                </a>
-                </div>
-                <div>
-                <a href="mailto:goyaljayesh@yahoo.com" className="hover:text-secondary/90 transition">
-                  goyaljayesh@yahoo.com 
-                </a>
+                <div className="pt-2">
+                  <div className="flex items-start">
+                    <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
+                    <div>
+                      <a href="mailto:hrydayenterprises@gmail.com" className="hover:text-secondary/90 transition">
+                        hrydayenterprises@gmail.com 
+                      </a>
+                      <div className="mt-1">
+                        <a href="mailto:goyaljayesh@yahoo.com" className="hover:text-secondary/90 transition">
+                          goyaljayesh@yahoo.com 
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </p>
-              <p>
+              <p className="pt-2">
                 <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2" />
                 Shop No. 3, Lorik Yadav Premises,<br/>
                 Santosh Nagar, Scout Camp Road,<br/>

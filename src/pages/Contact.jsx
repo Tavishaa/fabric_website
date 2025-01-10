@@ -25,8 +25,8 @@ function Contact() {
             <h2 className="text-2xl font-semibold text-primary-dark mb-6">Get in Touch</h2>
             
             <div className="space-y-6">
-              <div className="flex items-center">
-                <FontAwesomeIcon icon={faPhone} className="text-primary text-xl" />
+              <div className="flex items-start">
+                <FontAwesomeIcon icon={faPhone} className="text-primary text-lg mt-1" />
                 <div className="ml-4">
                   <h3 className="font-medium">Phone</h3>
                   <a href="tel:+919769171415" className="text-gray-600 hover:text-primary">
@@ -35,23 +35,26 @@ function Contact() {
                 </div>
               </div>
 
-              <div className="flex items-center">
-                <FontAwesomeIcon icon={faEnvelope} className="text-primary text-xl" />
+              <div className="flex items-start">
+                <FontAwesomeIcon icon={faEnvelope} className="text-primary text-lg mt-1" />
                 <div className="ml-4">
                   <h3 className="font-medium">Email</h3>
-                  <a href="mailto:hrydayenterprises@gmail.com" className="text-gray-600 hover:text-primary">
-                    hrydayenterprises@gmail.com
-                  </a>
-                  <div>
-                <a href="mailto:goyaljayesh@yahoo.com" className="text-gray-600 hover:text-primary">
-                  goyaljayesh@yahoo.com 
-                </a>
-                </div>
+                  <div className="space-y-1">
+                    <a href="mailto:hrydayenterprises@gmail.com" className="block text-gray-600 hover:text-primary">
+                      hrydayenterprises@gmail.com
+                    </a>
+                    <div className="flex items-center">
+                      
+                      <a href="mailto:goyaljayesh@yahoo.com" className="block text-gray-600 hover:text-primary">
+                        goyaljayesh@yahoo.com 
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
 
-              <div className="flex items-center">
-                <FontAwesomeIcon icon={faMapMarkerAlt} className="text-primary text-xl" />
+              <div className="flex items-start">
+                <FontAwesomeIcon icon={faMapMarkerAlt} className="text-primary text-lg mt-1" />
                 <div className="ml-4">
                   <h3 className="font-medium">Address</h3>
                   <p className="text-gray-600">
@@ -61,6 +64,19 @@ function Contact() {
                     Behram Baug, Jogeshwari (West),<br />
                     Mumbai - 400102.
                   </p>
+                  <div className="flex items-start -ml-8 mt-3">
+                    <i className="ri-earth-fill text-primary text-lg "></i>
+                    <div className="ml-4">
+                      <a 
+                        href="https://www.google.com/maps/place/Hryday+Enterprises/@19.145694,72.8350866,19.75z/data=!4m6!3m5!1s0x3be7b72f5dfd0ac7:0x1279c638a450b596!8m2!3d19.1455103!4d72.8352382!16s%2Fg%2F11kbz7h0j9?hl=en&entry=ttu"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary hover:text-primary-dark transition-colors duration-300"
+                      >
+                        <span>View on Google Maps</span>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -71,17 +87,17 @@ function Contact() {
                     href="https://wa.me/+919769171415" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="text-primary hover:text-primary-dark transition-colors duration-300 text-2xl"
+                    className="text-primary hover:text-primary-dark transition-colors duration-300"
                   >
-                    <FontAwesomeIcon icon={faWhatsapp} />
+                    <FontAwesomeIcon icon={faWhatsapp} className="text-lg" />
                   </a>
                   <a 
                     href="https://www.linkedin.com/company/105148537/admin/dashboard/" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="text-primary hover:text-primary-dark transition-colors duration-300 text-2xl"
+                    className="text-primary hover:text-primary-dark transition-colors duration-300"
                   >
-                    <FontAwesomeIcon icon={faLinkedin} />
+                    <FontAwesomeIcon icon={faLinkedin} className="text-lg" />
                   </a>
                 </div>
               </div>
