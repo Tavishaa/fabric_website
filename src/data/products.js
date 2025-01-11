@@ -98,10 +98,10 @@ export const products = [
     name: 'Polypropylene Non Woven Fabric',
     category: 'pp-nonwoven',
     images: [
-      '/ProductImages/pp1.jpg',
       '/ProductImages/pp2.jpg',
-      '/ProductImages/pp3.jpg',
-      '/ProductImages/pp4.jpg'
+      '/ProductImages/pp3.png',
+      '/ProductImages/pp4.jpg',
+      '/ProductImages/pp5.jpg'
     ],
     shortDescription: 'High-quality polypropylene non woven fabric for diverse applications.',
     description: `Premium polypropylene non woven fabric offering:
@@ -134,8 +134,8 @@ export const products = [
     name: 'Polyester Fusible Interlining',
     category: 'polyester-fusible',
     images: [
-      '/ProductImages/polyester2.jpg',
       '/ProductImages/polyester3.jpg',
+      '/ProductImages/polyester2.jpg',
       '/ProductImages/polyester4.jpg',
       '/ProductImages/polyester5.jpg'
     ],

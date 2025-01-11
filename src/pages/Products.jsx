@@ -26,8 +26,8 @@ function Products() {
               key={product.id} 
               product={product}
               displayImage={
-                product.category === 'spunlace' 
-                  ? '/ProductImages/spunlace1.jpg'
+                product.category === 'pp-nonwoven' 
+                  ? '/ProductImages/pp1.jpg'
                   : product.images[0]
               }
             />
@@ -38,13 +38,17 @@ function Products() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[calc(75%)] mx-auto">
           {bottomRowProducts.map(product => (
             <ProductCard 
-            key={product.id} 
-            product={product}
-            displayImage={
-              product.category === 'spunlace' 
+              key={product.id} 
+              product={product}
+              displayImage={
+                product.category === 'polyester-fusible' 
+                ? '/ProductImages/polyester1.jpeg'
+                : product.category === 'coated-fabric' 
+                ? '/ProductImages/pvc1.jpg'
+                : product.category === 'spunlace'
                 ? '/ProductImages/spunlace1.jpg'
                 : product.images[0]
-            }
+              }
             />
           ))}
         </div>
