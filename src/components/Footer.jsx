@@ -33,11 +33,21 @@ function Footer() {
                   <div className="flex items-start">
                     <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
                     <div>
-                      <a href="mailto:hrydayenterprises@gmail.com" className="hover:text-secondary/90 transition">
+                      <a 
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=hrydayenterprises@gmail.com"
+                        className="hover:text-secondary/90 transition"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         hrydayenterprises@gmail.com 
                       </a>
                       <div className="mt-1">
-                        <a href="mailto:goyaljayesh@yahoo.com" className="hover:text-secondary/90 transition">
+                        <a 
+                          href="https://mail.google.com/mail/?view=cm&fs=1&to=goyaljayesh@yahoo.com"
+                          className="hover:text-secondary/90 transition"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           goyaljayesh@yahoo.com 
                         </a>
                       </div>

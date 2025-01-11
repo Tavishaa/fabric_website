@@ -79,8 +79,9 @@ function Header() {
               </AnimatePresence>
             </div>
             
-            <Link to="/about" className="text-background hover:text-secondary transition-colors duration-300">About Us</Link>
+            
             <Link to="/services" className="text-background hover:text-secondary transition-colors duration-300">Services</Link>
+            <Link to="/about" className="text-background hover:text-secondary transition-colors duration-300">About Us</Link>
             <Link to="/contact" className="text-background hover:text-secondary transition-colors duration-300">Contact</Link>
           </nav>
 
@@ -91,7 +92,13 @@ function Header() {
             <a href="tel:+919769171415" className="text-secondary hover:text-secondary/80 transition-colors duration-300">
               <FontAwesomeIcon icon={faPhone} />
             </a>
-            <a href="mailto:hrydayenterprises@gmail.com" className="text-secondary hover:text-secondary/80 transition-colors duration-300">
+            
+            <a 
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=hrydayenterprises@gmail.com"
+              className="text-secondary hover:text-secondary/80 transition-colors duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
             <div className="border-l border-background/20 h-6 mx-2"></div>

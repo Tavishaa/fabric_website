@@ -67,7 +67,7 @@ export const products = [
       '/ProductImages/chemical2.jpg',
       '/ProductImages/chemical3.jpg',
       '/ProductImages/chemical4.png',
-      '/ProductImages/chemical5.png'
+      '/ProductImages/chemical5.jpg'
     ],
     shortDescription: 'Versatile chemical bonded non woven fabrics available in both fusible and non-fusible variants.',
     description: `High-quality chemical bonded non woven fabrics with various features:
@@ -105,7 +105,6 @@ export const products = [
     ],
     shortDescription: 'High-quality polypropylene non woven fabric for diverse applications.',
     description: `Premium polypropylene non woven fabric offering:
-    • Chemical bonding process
     • Superior strength and durability
     • Enhanced air permeability
     • Chemical resistance
@@ -116,10 +115,10 @@ export const products = [
     • Quilting backing
     • Silica gel
     • Seat cover lamination and backing
-    • Filteration in air, water and oil filters
+    • Filteration - air, water and oil
     • Gripper backing
     • Furniture - bed & sofa cover
-    • Home furnishing - matteresses & pillow cover
+    • Home furnishing - mattresses & pillow cover
     • Face masks`,
     specifications: [
       { label: 'Weight Range', value: '8-180 GSM' },
@@ -137,7 +136,7 @@ export const products = [
       '/ProductImages/polyester3.jpg',
       '/ProductImages/polyester2.jpg',
       '/ProductImages/polyester4.jpg',
-      '/ProductImages/polyester5.jpg'
+      '/ProductImages/polyester5.png'
     ],
     shortDescription: 'Premium polyester-based fusible interlining for enhanced garment structure.',
     description: `High-performance polyester fusible interlining featuring:
@@ -154,7 +153,7 @@ export const products = [
     • Stretchable garments`,
     specifications: [
       { label: 'Weight Range', value: '40-120 GSM' },
-      { label: 'Width', value: '90-150 cm' },
+      { label: 'Width', value: '112, 150cm' },
       { label: 'Material', value: 'Polyester' },
       { label: 'Coating', value: 'PA, EVA' }
     ]
@@ -167,7 +166,7 @@ export const products = [
       '/ProductImages/pvc2.jpg',
       '/ProductImages/pvc3.jpg',
       '/ProductImages/pvc4.jpg',
-      '/ProductImages/pvc5.png'
+      '/ProductImages/pvc5.jpg'
     ],
     shortDescription: 'Specialized PVC/PU coated fabrics for technical applications.',
     description: `High-quality coated fabrics with:

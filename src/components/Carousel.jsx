@@ -49,12 +49,16 @@ function Carousel() {
       caption: 'Chemical Bond Non Woven Fusible & Non Fusible Fabric',
     },
     {
-      image: '/ProductImages/pvc2.jpg',
-      caption: 'PVC/PU Coated Fabric',
+      image: '/ProductImages/woven5.jpg',
+      caption: 'Woven Fusible Interlining For Garment Industry',
     },
     {
-      image: '/ProductImages/pp3.png',
+      image: '/ProductImages/pp6.jpg',
       caption: 'Polypropylene Non Woven Fabric',
+    },
+    {
+      image: '/ProductImages/thermal6.jpg',
+      caption: 'Thermal Bond Nonwoven Microdot Fusible Interlining',
     },
   ];
 

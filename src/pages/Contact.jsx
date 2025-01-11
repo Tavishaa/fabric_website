@@ -40,12 +40,22 @@ function Contact() {
                 <div className="ml-4">
                   <h3 className="font-medium">Email</h3>
                   <div className="space-y-1">
-                    <a href="mailto:hrydayenterprises@gmail.com" className="block text-gray-600 hover:text-primary">
+                    <a 
+                      href="https://mail.google.com/mail/?view=cm&fs=1&to=hrydayenterprises@gmail.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block text-gray-600 hover:text-primary"
+                    >
                       hrydayenterprises@gmail.com
                     </a>
                     <div className="flex items-center">
                       
-                      <a href="mailto:goyaljayesh@yahoo.com" className="block text-gray-600 hover:text-primary">
+                      <a 
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=goyaljayesh@yahoo.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block text-gray-600 hover:text-primary"
+                      >
                         goyaljayesh@yahoo.com 
                       </a>
                     </div>

@@ -62,32 +62,7 @@ function Home() {
 
       <hr className="border-0 h-[2px] bg-gradient-to-r from-transparent via-primary/25 to-transparent mx-auto max-w-4xl" />
 
-      {/* About Section */}
-      <section className="py-16 bg-secondary/10">
-        <div className="container mx-auto px-4">
-          <motion.h2
-            initial={{ opacity: 1 }}
-            animate={{ opacity: 1 }}
-            className="text-4xl font-bold text-center text-primary mb-12"
-          >
-            About Us
-          </motion.h2>
-          
-          <div className="max-w-3xl mx-auto text-center">
-            <p className="text-gray-600 mb-6 text-lg leading-relaxed">
-              With over 15 years of excellence, Hryday Enterprises delivers precision die cutting and slitting services for the garment industry. Our state-of-the-art facility and expert team ensure superior quality components for leading manufacturers.
-            </p>
-            <Link
-              to="/about"
-              className="inline-block bg-gradient-to-r from-primary to-primary-dark text-white px-6 py-3 rounded-md hover:opacity-90 transition-all duration-300 font-semibold shadow-md hover:shadow-lg"
-            >
-              Learn More About Us
-            </Link>
-          </div>
-        </div>
-      </section>
       
-      <hr className="border-0 h-[2px] bg-gradient-to-r from-transparent via-primary/25 to-transparent mx-auto max-w-4xl" />
       
       {/* Services Section */}
       <section className="py-16 bg-secondary/20">
@@ -151,6 +126,34 @@ function Home() {
         </div>
       </section>
 
+      <hr className="border-0 h-[2px] bg-gradient-to-r from-transparent via-primary/25 to-transparent mx-auto max-w-4xl" />
+
+
+      {/* About Section */}
+      <section className="py-16 bg-secondary/10">
+        <div className="container mx-auto px-4">
+          <motion.h2
+            initial={{ opacity: 1 }}
+            animate={{ opacity: 1 }}
+            className="text-4xl font-bold text-center text-primary mb-12"
+          >
+            About Us
+          </motion.h2>
+          
+          <div className="max-w-3xl mx-auto text-center">
+            <p className="text-gray-600 mb-6 text-lg leading-relaxed">
+              With over 20 years of excellence, Hryday Enterprises delivers precision die cutting and slitting services for the garment industry. Our state-of-the-art facility and expert team ensure superior quality components for leading manufacturers.
+            </p>
+            <Link
+              to="/about"
+              className="inline-block bg-gradient-to-r from-primary to-primary-dark text-white px-6 py-3 rounded-md hover:opacity-90 transition-all duration-300 font-semibold shadow-md hover:shadow-lg"
+            >
+              Learn More About Us
+            </Link>
+          </div>
+        </div>
+      </section>
+      
       <hr className="border-0 h-[2px] bg-gradient-to-r from-transparent via-primary/25 to-transparent mx-auto max-w-4xl" />
 
       {/* Contact Section */}
