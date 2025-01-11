@@ -52,11 +52,11 @@ function About() {
                 </FadeInWhenVisible>
 
                 <FadeInWhenVisible delay={0.2}>
-                  <div className="rounded-lg overflow-hidden h-[400px]">
+                  <div className="rounded-lg overflow-hidden h-[300px] md:h-[400px] w-full">
                     <img 
                       src="/about.png.jpg" 
                       alt="About Us" 
-                      className="w-full h-full object-cover hover:scale-105 transition-all duration-300"
+                      className="w-full h-full object-contain md:object-cover hover:scale-105 transition-all duration-300"
                     />
                   </div>
                 </FadeInWhenVisible>
