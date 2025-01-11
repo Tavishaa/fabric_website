@@ -5,50 +5,14 @@ import Carousel from '../components/Carousel';
 import ProductCard from '../components/ProductCard';
 import ContactForm from '../components/ContactForm';
 import { Link } from 'react-router-dom';
+import { products } from '../data/products';
 
 function Home() {
-  const products = [
-    {
-      id: 1,
-      name: 'Non Woven Non Fusible Fabrics',
-      image: 'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      shortDescription: 'High-quality chemical bonded non-woven fabrics for various applications.',
-    },
-    {
-      id: 2,
-      name: 'Woven Fusible Interlinings',
-      image: 'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      shortDescription: 'Premium fusible interlinings for garment industries.',
-    },
-    {
-      id: 3,
-      name: 'Embroidery Backing Fabrics',
-      image: 'https://images.unsplash.com/photo-1606501126768-b78d4569d3f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      shortDescription: 'Specialized backing materials for embroidery applications.',
-    },
-  ];
-
   const featuredProducts = [
-    {
-      id: 1,
-      name: "Woven Fusible Interlining",
-      shortDescription: "Premium woven fusible interlining for garment industry with superior adhesion and durability."
-    },
-    {
-      id: 2,
-      name: "Thermal Bond Nonwoven",
-      shortDescription: "Advanced microdot fusible interlining with thermal bonding technology."
-    },
-    {
-      id: 3,
-      name: "Chemical Bond Non Woven",
-      shortDescription: "Versatile chemical bonded non woven fabrics available in both fusible and non-fusible variants."
-    },
-    {
-      id: 4,
-      name: "PP Non Woven Fabric",
-      shortDescription: "High-quality polypropylene non woven fabric for diverse applications."
-    }
+    products[0],
+    products[1],
+    products[2],
+    products[3]
   ];
 
   return (
@@ -68,7 +32,15 @@ function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 max-w-5xl mx-auto px-4">
             {featuredProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCard 
+                key={product.id} 
+                product={product} 
+                displayImage={
+                  product.category === 'spunlace' 
+                    ? '/ProductImages/spunlace1.jpg'
+                    : product.images[1]
+                }
+              />
             ))}
           </div>
           <div className="text-center mt-12">

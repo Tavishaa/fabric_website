@@ -20,16 +20,32 @@ function Products() {
         </motion.h1>
 
         {/* Top row - 4 products */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12 max-w-7xl mx-auto">
           {topRowProducts.map(product => (
-            <ProductCard key={product.id} product={product} />
+            <ProductCard 
+              key={product.id} 
+              product={product}
+              displayImage={
+                product.category === 'spunlace' 
+                  ? '/ProductImages/spunlace1.jpg'
+                  : product.images[0]
+              }
+            />
           ))}
         </div>
 
         {/* Bottom row - 3 products centered */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[calc(75%)] mx-auto">
           {bottomRowProducts.map(product => (
-            <ProductCard key={product.id} product={product} />
+            <ProductCard 
+            key={product.id} 
+            product={product}
+            displayImage={
+              product.category === 'spunlace' 
+                ? '/ProductImages/spunlace1.jpg'
+                : product.images[0]
+            }
+            />
           ))}
         </div>
       </div>
