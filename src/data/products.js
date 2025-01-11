@@ -195,10 +195,10 @@ export const products = [
     name: 'Spunlace Nonwoven Fabric',
     category: 'spunlace',
     images: [
-      'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
-      'https://5.imimg.com/data5/SELLER/Default/2022/12/ZX/PK/QG/88579516/spunlace-non-woven-fabric.jpg',
-      'https://5.imimg.com/data5/SELLER/Default/2023/3/292456150/YU/CV/RD/88579516/spunlace-non-woven-fabric.webp',
-      'https://5.imimg.com/data5/SELLER/Default/2023/7/329719145/OG/YN/YW/121462558/spunlace-nonwoven-fabric.jpg'
+      '/ProductImages/spunlace5.jpg',
+      '/ProductImages/spunlace2.jpg',
+      '/ProductImages/spunlace3.jpg',
+      '/ProductImages/spunlace1.jpg'
     ],
     shortDescription: 'High-quality spunlace nonwoven fabric with superior softness and strength.',
     description: `Premium spunlace nonwoven fabric featuring:
