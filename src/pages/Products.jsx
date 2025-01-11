@@ -10,7 +10,7 @@ function Products() {
 
   return (
     <div className="py-16 bg-secondary-light min-h-screen">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -19,40 +19,20 @@ function Products() {
           Our Products
         </motion.h1>
 
-        {/* Top row - 4 products */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12 max-w-7xl mx-auto">
-          {topRowProducts.map(product => (
+        {/* All products in a single grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-w-7xl mx-auto px-4">
+          {products.map(product => (
             <ProductCard 
               key={product.id} 
               product={product}
               displayImage={
-                product.category === 'woven-fusible' 
-                ? '/ProductImages/woven1.jpg'
-                : product.category === 'nonwoven-microdot' 
-                ? '/ProductImages/thermal1.jpg'
-                : product.category === 'nonwoven-fabric' 
-                ? '/ProductImages/chemical1.jpg'
-                : product.category === 'pp-nonwoven' 
-                ? '/ProductImages/pp1.jpg'
-                : product.images[0]
-              }
-            />
-          ))}
-        </div>
-
-        {/* Bottom row - 3 products centered */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[calc(75%)] mx-auto">
-          {bottomRowProducts.map(product => (
-            <ProductCard 
-              key={product.id} 
-              product={product}
-              displayImage={
-                product.category === 'polyester-fusible' 
-                ? '/ProductImages/polyester1.jpeg'
-                : product.category === 'coated-fabric' 
-                ? '/ProductImages/pvc1.jpg'
-                : product.category === 'spunlace'
-                ? '/ProductImages/spunlace1.jpg'
+                product.category === 'woven-fusible' ? '/ProductImages/woven1.jpg'
+                : product.category === 'nonwoven-microdot' ? '/ProductImages/thermal1.jpg'
+                : product.category === 'nonwoven-fabric' ? '/ProductImages/chemical1.jpg'
+                : product.category === 'pp-nonwoven' ? '/ProductImages/pp1.jpg'
+                : product.category === 'polyester-fusible' ? '/ProductImages/polyester1.jpeg'
+                : product.category === 'coated-fabric' ? '/ProductImages/pvc1.jpg'
+                : product.category === 'spunlace' ? '/ProductImages/spunlace1.jpg'
                 : product.images[0]
               }
             />
