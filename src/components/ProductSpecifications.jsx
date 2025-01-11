@@ -2,20 +2,14 @@ import { motion } from 'framer-motion';
 
 function ProductSpecifications({ specifications }) {
   return (
-    <div className="bg-secondary-light rounded-lg p-6">
+    <div className="space-y-4">
       <h3 className="text-xl font-semibold text-primary-dark mb-4">Specifications</h3>
-      <div className="space-y-3">
+      <div className="grid grid-cols-1 gap-3">
         {specifications.map((spec, index) => (
-          <motion.div
-            key={spec.label}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: index * 0.1 }}
-            className="flex justify-between"
-          >
-            <span className="text-gray-600">{spec.label}</span>
-            <span className="font-medium text-gray-800">{spec.value}</span>
-          </motion.div>
+          <div key={index} className="flex flex-col sm:flex-row sm:justify-between border-b border-primary/10 pb-2">
+            <span className="text-gray-600 font-medium min-w-[140px]">{spec.label}:</span>
+            <span className="text-gray-800 sm:text-right">{spec.value}</span>
+          </div>
         ))}
       </div>
     </div>
