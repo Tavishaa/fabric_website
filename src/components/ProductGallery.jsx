@@ -1,8 +1,12 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-function ProductGallery({ images }) {
-  const [selectedImage, setSelectedImage] = useState(images[0]);
+function ProductGallery({ images, defaultImage }) {
+  const [selectedImage, setSelectedImage] = useState(defaultImage || images[0]);
+
+  useEffect(() => {
+    setSelectedImage(defaultImage || images[0]);
+  }, [defaultImage, images]);
 
   return (
     <div>

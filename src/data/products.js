@@ -4,10 +4,10 @@ export const products = [
     name: 'Woven Fusible Interlining For Garment Industry',
     category: 'woven-fusible',
     images: [
-      'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
-      'https://5.imimg.com/data5/SELLER/Default/2021/3/KO/QG/XG/3823480/woven-fusible-interlining-fabric-500x500.jpg',
-      'https://img.freepik.com/premium-photo/close-up-textile-fabric-texture-background_67155-3877.jpg',
-      'https://www.textileblog.com/wp-content/uploads/2018/03/fusible-interlining-fabric.jpg'
+      '/ProductImages/woven1.jpg',
+      '/ProductImages/woven2.jpg',
+      '/ProductImages/woven3.jpg',
+      '/ProductImages/woven4.jpg'
     ],
     shortDescription: 'Premium woven fusible interlining for garment industry with superior adhesion and durability.',
     description: `Our woven fusible interlining provides excellent shape retention and durability for garment applications. Features include:
@@ -35,10 +35,10 @@ export const products = [
     name: 'Thermal Bond Nonwoven Microdot Fusible Interlining',
     category: 'nonwoven-microdot',
     images: [
-      'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
-      'https://5.imimg.com/data5/SELLER/Default/2023/3/293523773/TN/UE/BZ/185656077/thermal-bonded-non-woven-fabric.jpg',
-      'https://5.imimg.com/data5/SELLER/Default/2022/9/IO/YK/DF/7952744/microdot-fusible-interlining.jpg',
-      'https://img.diytrade.com/smimg/2908417/49550867-11764107-0/nn/c0c9.jpg'
+      '/ProductImages/thermal1.jpg',
+      '/ProductImages/thermal2.jpg',
+      '/ProductImages/thermal3.jpg',
+      '/ProductImages/thermal4.jpg'
     ],
     shortDescription: 'Advanced microdot fusible interlining with thermal bonding technology.',
     description: `Our thermal bond nonwoven microdot fusible interlining features advanced bonding technology for superior performance:
@@ -64,10 +64,10 @@ export const products = [
     name: 'Chemical Bond Non Woven Fusible & Non Fusible Fabric',
     category: 'nonwoven-fabric',
     images: [
-      'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
-      'https://5.imimg.com/data5/SELLER/Default/2021/12/MI/CM/OK/142023487/non-woven-fusible-interlining-fabric.jpg',
-      'https://5.imimg.com/data5/SELLER/Default/2022/2/ZE/ZK/JZ/147299793/non-woven-interlining-fabric.jpg',
-      'https://4.imimg.com/data4/QY/YX/MY-3554754/non-woven-interlining-fabric-500x500.jpg'
+      '/ProductImages/chemical1.jpg',
+      '/ProductImages/chemical2.jpg',
+      '/ProductImages/chemical3.jpg',
+      '/ProductImages/chemical4.jpg'
     ],
     shortDescription: 'Versatile chemical bonded non woven fabrics available in both fusible and non-fusible variants.',
     description: `High-quality chemical bonded non woven fabrics with various features:
@@ -98,10 +98,10 @@ export const products = [
     name: 'Polypropylene Non Woven Fabric',
     category: 'pp-nonwoven',
     images: [
-      'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
-      'https://5.imimg.com/data5/SELLER/Default/2022/11/WF/ON/JZ/9856630/pp-spunbond-non-woven-fabric.jpg',
-      'https://5.imimg.com/data5/SELLER/Default/2023/7/325885068/QE/YG/KR/195692734/pp-non-woven-fabric.jpeg',
-      'https://5.imimg.com/data5/ANDROID/Default/2023/1/XP/CX/JK/14437719/product-jpeg.jpg'
+      '/ProductImages/pp1.jpg',
+      '/ProductImages/pp2.jpg',
+      '/ProductImages/pp3.jpg',
+      '/ProductImages/pp4.jpg'
     ],
     shortDescription: 'High-quality polypropylene non woven fabric for diverse applications.',
     description: `Premium polypropylene non woven fabric offering:
@@ -134,10 +134,10 @@ export const products = [
     name: 'Polyester Fusible Interlining',
     category: 'polyester-fusible',
     images: [
-      'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
-      'https://5.imimg.com/data5/SELLER/Default/2022/8/RN/VK/OG/102469/polyester-fusible-interlining.jpg',
-      'https://5.imimg.com/data5/SELLER/Default/2023/4/298550150/XK/YC/YW/28869815/polyester-fusible-interlining.jpg',
-      'https://5.imimg.com/data5/SELLER/Default/2023/3/293523773/TN/UE/BZ/185656077/polyester-fusible-interlining.jpg'
+      '/ProductImages/polyester2.jpg',
+      '/ProductImages/polyester3.jpg',
+      '/ProductImages/polyester4.jpg',
+      '/ProductImages/polyester5.jpg'
     ],
     shortDescription: 'Premium polyester-based fusible interlining for enhanced garment structure.',
     description: `High-performance polyester fusible interlining featuring:

@@ -4,10 +4,20 @@ import { products } from '../data/products';
 import ProductGallery from '../components/ProductGallery';
 import ProductSpecifications from '../components/ProductSpecifications';
 import ContactForm from '../components/ContactForm';
+import { useState, useEffect } from 'react';
 
 function ProductDetail() {
   const { id } = useParams();
   const product = products.find(p => p.id === parseInt(id));
+
+  const [selectedImage, setSelectedImage] = useState(product?.images[0]);
+
+  // Reset selected image when product changes
+  useEffect(() => {
+    if (product) {
+      setSelectedImage(product.images[0]);
+    }
+  }, [product]); // Dependency on product ensures this runs when product changes
 
   if (!product) {
     return <div className="text-center py-16">Product not found</div>;
@@ -24,7 +34,11 @@ function ProductDetail() {
           <h1 className="text-3xl font-bold text-primary-dark mb-8">{product.name}</h1>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <ProductGallery images={product.images} />
+            <ProductGallery 
+              images={product.images} 
+              defaultImage={selectedImage}
+              key={product.id} // Force remount of gallery when product changes
+            />
             
             <div>
               <div className="prose max-w-none mb-8">
