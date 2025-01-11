@@ -26,9 +26,15 @@ function Products() {
               key={product.id} 
               product={product}
               displayImage={
-                product.category === 'pp-nonwoven' 
-                  ? '/ProductImages/pp1.jpg'
-                  : product.images[0]
+                product.category === 'woven-fusible' 
+                ? '/ProductImages/woven1.jpg'
+                : product.category === 'nonwoven-microdot' 
+                ? '/ProductImages/thermal1.jpg'
+                : product.category === 'nonwoven-fabric' 
+                ? '/ProductImages/chemical1.jpg'
+                : product.category === 'pp-nonwoven' 
+                ? '/ProductImages/pp1.jpg'
+                : product.images[0]
               }
             />
           ))}

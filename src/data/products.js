@@ -4,10 +4,10 @@ export const products = [
     name: 'Woven Fusible Interlining For Garment Industry',
     category: 'woven-fusible',
     images: [
-      '/ProductImages/woven1.jpg',
       '/ProductImages/woven2.jpg',
       '/ProductImages/woven3.jpg',
-      '/ProductImages/woven4.jpg'
+      '/ProductImages/woven4.jpg',
+      '/ProductImages/woven5.jpg'
     ],
     shortDescription: 'Premium woven fusible interlining for garment industry with superior adhesion and durability.',
     description: `Our woven fusible interlining provides excellent shape retention and durability for garment applications. Features include:
@@ -35,10 +35,10 @@ export const products = [
     name: 'Thermal Bond Nonwoven Microdot Fusible Interlining',
     category: 'nonwoven-microdot',
     images: [
-      '/ProductImages/thermal1.jpg',
       '/ProductImages/thermal2.jpg',
       '/ProductImages/thermal3.jpg',
-      '/ProductImages/thermal4.jpg'
+      '/ProductImages/thermal4.jpg',
+      '/ProductImages/thermal5.jpg'
     ],
     shortDescription: 'Advanced microdot fusible interlining with thermal bonding technology.',
     description: `Our thermal bond nonwoven microdot fusible interlining features advanced bonding technology for superior performance:
@@ -64,10 +64,10 @@ export const products = [
     name: 'Chemical Bond Non Woven Fusible & Non Fusible Fabric',
     category: 'nonwoven-fabric',
     images: [
-      '/ProductImages/chemical1.jpg',
       '/ProductImages/chemical2.jpg',
       '/ProductImages/chemical3.jpg',
-      '/ProductImages/chemical4.jpg'
+      '/ProductImages/chemical4.png',
+      '/ProductImages/chemical5.png'
     ],
     shortDescription: 'Versatile chemical bonded non woven fabrics available in both fusible and non-fusible variants.',
     description: `High-quality chemical bonded non woven fabrics with various features:

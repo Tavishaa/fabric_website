@@ -34,11 +34,17 @@ function Home() {
             {featuredProducts.map((product) => (
               <ProductCard 
                 key={product.id} 
-                product={product} 
+                product={product}
                 displayImage={
-                  product.category === 'spunlace' 
-                    ? '/ProductImages/spunlace1.jpg'
-                    : product.images[1]
+                  product.category === 'woven-fusible' 
+                    ? '/ProductImages/woven1.jpg'
+                    : product.category === 'nonwoven-microdot' 
+                    ? '/ProductImages/thermal1.jpg'
+                    : product.category === 'nonwoven-fabric' 
+                    ? '/ProductImages/chemical1.jpg'
+                    : product.category === 'pp-nonwoven' 
+                    ? '/ProductImages/pp1.jpg'
+                    : product.images[0]
                 }
               />
             ))}
