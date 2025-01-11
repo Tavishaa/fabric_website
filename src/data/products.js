@@ -164,10 +164,10 @@ export const products = [
     name: 'PVC/PU Coated Fabric',
     category: 'coated-fabric',
     images: [
-      'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
-      'https://5.imimg.com/data5/SELLER/Default/2022/9/VZ/ZK/UP/37600718/pvc-coated-fabric.jpg',
-      'https://5.imimg.com/data5/SELLER/Default/2023/2/WX/DK/OB/184603450/pu-coated-fabric.jpg',
-      'https://5.imimg.com/data5/SELLER/Default/2023/7/329719145/OG/YN/YW/121462558/pvc-coated-fabric.jpg'
+      '/ProductImages/pvc2.jpg',
+      '/ProductImages/pvc3.jpg',
+      '/ProductImages/pvc4.jpg',
+      '/ProductImages/pvc5.png'
     ],
     shortDescription: 'Specialized PVC/PU coated fabrics for technical applications.',
     description: `High-quality coated fabrics with:
@@ -198,7 +198,7 @@ export const products = [
       '/ProductImages/spunlace5.jpg',
       '/ProductImages/spunlace2.jpg',
       '/ProductImages/spunlace3.jpg',
-      '/ProductImages/spunlace1.jpg'
+      '/ProductImages/spunlace4.jpg'
     ],
     shortDescription: 'High-quality spunlace nonwoven fabric with superior softness and strength.',
     description: `Premium spunlace nonwoven fabric featuring:
