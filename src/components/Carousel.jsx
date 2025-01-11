@@ -45,16 +45,16 @@ function Carousel() {
 
   const slides = [
     {
-      image: 'https://jhanjitextiles.com/wp-content/uploads/2023/07/Fusible-Chemical-Bonded-Fabric.webp',
+      image: '/ProductImages/chemical2.jpg',
       caption: 'Chemical Bond Non Woven Fusible & Non Fusible Fabric',
     },
     {
-      image: 'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=2072&auto=format&fit=crop',
-      caption: 'Fusible Interlinings',
+      image: '/ProductImages/pvc2.jpg',
+      caption: 'PVC/PU Coated Fabric',
     },
     {
-      image: 'https://images.unsplash.com/photo-1599589915468-b4c71ed62543?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      caption: 'Embroidery Backing Fabrics',
+      image: '/ProductImages/pp3.png',
+      caption: 'Polypropylene Non Woven Fabric',
     },
   ];
 
